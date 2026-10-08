@@ -78,3 +78,10 @@ test('un voto dividido se dice', async ({ page }) => {
   await page.goto(`/partido/${slug(c.partido)}/`);
   await expect(page.locator('main')).toContainText('votó dividido');
 });
+
+test('la cabecera de la ficha separa las frases', async ({ page }) => {
+  for (const p of datos.partidos) {
+    await page.goto(`/partido/${slug(p.id)}/`);
+    expect(await page.locator('main > p.aviso').first().innerText()).not.toMatch(/\.[A-ZÁÉÍÓÚ]/);
+  }
+});

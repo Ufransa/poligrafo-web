@@ -16,7 +16,7 @@ const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
 ---
 <Base titulo={p.nombre}>
   <h1>{p.nombre}</h1>
-  <p class="aviso">{p.escanos_23j > 0 ? `${p.escanos_23j} escaños en 2023.` : 'Sin escaño propio en 2023.'}
+  <p class="aviso">{p.escanos_23j > 0 ? `${p.escanos_23j} escaños en 2023. ` : 'Sin escaño propio en 2023. '}
     {p.programa_2023 ? <a href={p.programa_2023} rel="noopener">Programa de 2023</a> : p.sin_programa}</p>
 
   {temas.length > 0 && (
