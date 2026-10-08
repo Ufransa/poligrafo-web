@@ -1,4 +1,22 @@
 ---
 import Base from '../layouts/Base.astro';
+import { partidosOrdenados, temasDe, slug } from '../lib/datos';
+const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
 ---
-<Base titulo="Los partidos"><h1>Los partidos</h1></Base>
+<Base titulo="Los partidos">
+  <h1>Los partidos</h1>
+  <p class="lema">Aquí no te decimos a quién votar. Te enseñamos lo que prometieron y lo que votaron.</p>
+  {partidosOrdenados().map((p) => {
+    const temas = temasDe(p.id).slice(0, 3);
+    return (
+      <section class="ficha-partido">
+        <h2>{p.nombre}</h2>
+        <p class="aviso">{p.escanos_23j > 0 ? `${p.escanos_23j} escaños en 2023` : 'Sin escaño propio en 2023'}</p>
+        {p.programa_2023 && temas.length > 0
+          ? <p>Dedica más espacio a: {temas.map(([t, n]) => `${t} (${pct(n)})`).join(', ')}.</p>
+          : <p class="aviso">{p.sin_programa}</p>}
+        <a class="abrir" href={`/partido/${slug(p.id)}/`}>Ver ficha de {p.nombre}</a>
+      </section>
+    );
+  })}
+</Base>

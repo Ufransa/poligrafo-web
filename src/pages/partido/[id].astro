@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import { datos, slug } from '../../lib/datos';
+export function getStaticPaths() {
+  return datos.partidos.map((p) => ({ params: { id: slug(p.id) }, props: { p } }));
+}
+const { p } = Astro.props;
+---
+<Base titulo={p.nombre}><h1>{p.nombre}</h1></Base>
