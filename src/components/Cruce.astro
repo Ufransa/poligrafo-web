@@ -1,0 +1,36 @@
+---
+import type { Cruce } from '../lib/datos';
+import { votacion, promesa, fecha } from '../lib/datos';
+interface Props { c: Cruce; firme: boolean }
+const { c, firme } = Astro.props;
+const v = votacion.get(c.votacion_id)!;
+const p = promesa.get(c.promesa_id)!;
+const enlaces = ([
+  [`Programa, pág. ${p.pagina}`, p.url_programa_pagina],
+  ['Votación en el Congreso', v.url_sesion],
+  ['Texto de la iniciativa (BOCG)', v.url_bocg],
+  ['Publicación en el BOE', v.url_boe],
+] as [string, string | null][]).filter(([, u]) => u);
+const juez = (m: string) => m.split('/').pop();
+---
+<article class={`cruce ${firme ? c.veredicto : ''}`}>
+  {firme && (
+    <p class="sello">{c.veredicto === 'cumple' ? 'Cumple' : 'Incumple'}{c.revisado_a_mano && <span class="revisado">, Revisado a mano</span>}</p>
+  )}
+  <p class="promesa">{p.texto}</p>
+  <blockquote class="cita">«{p.cita}»</blockquote>
+  <p class="votacion"><strong>{fecha(v.fecha)}.</strong> {v.expediente} {v.que_se_vota}</p>
+  <p class="voto">
+    {c.partido} votó <strong>{c.voto}</strong>{c.dividido && ' (votó dividido)'}. Resultado: {v.resultado}.
+    {v.subtipo === 'devolucion' && ' Ojo: aquí se votaba devolver la ley; votar No es dejar que siga adelante.'}
+  </p>
+  <ul class="enlaces">{enlaces.map(([t, u]) => <li><a href={u} rel="noopener">{t}</a></li>)}</ul>
+  <details class="jueces">
+    <summary>Qué dijo cada juez</summary>
+    <ul>
+      {Object.entries(c.jueces).map(([m, j]) => (
+        <li>{juez(m)}: {j ? `la promesa está ${j.postura === 'a_favor' ? 'a favor' : 'en contra'} de la iniciativa, relación ${j.fuerza ?? 'sin precisar'}` : 'no vio relación'}</li>
+      ))}
+    </ul>
+  </details>
+</article>

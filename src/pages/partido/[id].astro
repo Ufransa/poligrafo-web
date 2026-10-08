@@ -1,9 +1,103 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { datos, slug } from '../../lib/datos';
+import Cruce from '../../components/Cruce.astro';
+import { datos, slug, crucesDe, porTema, temasDe, votacion, promesa, fecha, euros } from '../../lib/datos';
 export function getStaticPaths() {
   return datos.partidos.map((p) => ({ params: { id: slug(p.id) }, props: { p } }));
 }
 const { p } = Astro.props;
+const { firmes, juzgaTu } = crucesDe(p.id);
+const temas = temasDe(p.id);
+const temas2026 = temasDe(p.id, '2026');
+const coherencia = (datos.coherencia[p.id] ?? []).filter((x) => votacion.has(x.a_favor) && votacion.has(x.en_contra));
+const gobierno = (datos.gobierno[p.id] ?? []).filter((g) => votacion.has(g.votacion_id) && promesa.has(g.promesa_id));
+const dinero = datos.finanzas[p.id];
+const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
 ---
-<Base titulo={p.nombre}><h1>{p.nombre}</h1></Base>
+<Base titulo={p.nombre}>
+  <h1>{p.nombre}</h1>
+  <p class="aviso">{p.escanos_23j > 0 ? `${p.escanos_23j} escaños en 2023.` : 'Sin escaño propio en 2023.'}
+    {p.programa_2023 ? <a href={p.programa_2023} rel="noopener">Programa de 2023</a> : p.sin_programa}</p>
+
+  {temas.length > 0 && (
+    <section id="temas">
+      <h2>A qué dedica su programa</h2>
+      <p class="aviso">Porcentaje de sus promesas de 2023 sobre cada tema.{temas2026.length === 0 && ' El programa de 2026 aún no está cargado.'}</p>
+      {temas.map(([t, n]) => <div class="barra"><span>{t}</span><span>{pct(n)}</span><i style={`width:${n}%`}></i></div>)}
+    </section>
+  )}
+
+  {firmes.length > 0 && (
+    <section id="cruces">
+      <h2>Lo que prometieron y lo que votaron</h2>
+      <p class="aviso">{firmes.length} casos en los que los tres jueces coinciden y la votación decide exactamente lo prometido. No se compara entre partidos: quien gobierna vota más leyes propias, y un «incumple» solo se publica si una persona lo ha revisado a mano.</p>
+      {porTema(p.id, firmes).map(([t, cs]) => (
+        <>
+          <h3>{t}</h3>
+          {cs.map((c) => <Cruce c={c} firme={true} />)}
+        </>
+      ))}
+    </section>
+  )}
+
+  {juzgaTu.length > 0 && (
+    <section>
+      <h2>Juzga tú</h2>
+      <details id="juzga-tu">
+        <summary>{juzgaTu.length} casos en los que los jueces no coinciden del todo</summary>
+        <p class="aviso">Aquí no damos veredicto: te dejamos la promesa, la votación y las fuentes.</p>
+        {juzgaTu.map((c) => <Cruce c={c} firme={false} />)}
+      </details>
+    </section>
+  )}
+
+  {coherencia.length > 0 && (
+    <section id="coherencia">
+      <h2>Cambios de postura</h2>
+      {coherencia.map((x) => {
+        const s = votacion.get(x.a_favor)!, n = votacion.get(x.en_contra)!;
+        return (
+          <article class="cruce">
+            <p class="votacion">{s.expediente}</p>
+            <p class="voto">A favor el {fecha(s.fecha)} y en contra el {fecha(n.fecha)}.</p>
+            <ul class="enlaces">
+              {s.url_sesion && <li><a href={s.url_sesion} rel="noopener">Votación a favor</a></li>}
+              {n.url_sesion && <li><a href={n.url_sesion} rel="noopener">Votación en contra</a></li>}
+            </ul>
+          </article>
+        );
+      })}
+    </section>
+  )}
+
+  {gobierno.length > 0 && (
+    <section id="gobierno">
+      <h2>Lo que hicieron gobernando</h2>
+      {p.nota_gobierno && <p class="aviso">{p.nota_gobierno}</p>}
+      {gobierno.map((g) => {
+        const v = votacion.get(g.votacion_id)!, pr = promesa.get(g.promesa_id)!;
+        return (
+          <article class="cruce cumple">
+            <p class="promesa">{pr.texto}</p>
+            <p class="voto">Aprobado el {fecha(v.fecha)}:</p>
+            <p class="votacion">{v.expediente}</p>
+            <ul class="enlaces">
+              <li><a href={pr.url_programa_pagina} rel="noopener">Programa, pág. {pr.pagina}</a></li>
+              {g.url_boe && <li><a href={g.url_boe} rel="noopener">Publicación en el BOE</a></li>}
+            </ul>
+          </article>
+        );
+      })}
+    </section>
+  )}
+
+  {dinero && (
+    <section id="dinero">
+      <h2>Dinero de la campaña de 2023</h2>
+      <p>Gasto justificado: {euros(dinero.gasto_justificado_eur)}. Deudas con entidades de crédito: {euros(dinero.endeudamiento_eur)}.</p>
+      <p>{dinero.propuesta_reduccion_subvencion ? 'El Tribunal de Cuentas propuso reducirle la subvención.' : 'El Tribunal de Cuentas no propuso reducirle la subvención.'}
+        {dinero.transparencia === 'sin_dato' && ' El cumplimiento de transparencia está pendiente de transcribir.'}</p>
+      <ul class="enlaces"><li><a href={`${dinero.url_informe}#page=${dinero.pagina}`} rel="noopener">Informe del Tribunal de Cuentas, pág. {dinero.pagina}</a></li></ul>
+    </section>
+  )}
+</Base>
