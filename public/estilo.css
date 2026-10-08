@@ -1,0 +1,33 @@
+:root {
+  --fondo: #F5F5F1; --tinta: #1A1A1A; --gris: #4A4A4A; --linea: #D6D4CC; --enlace: #1F3A8A;
+  --cumple: #1E3A8A; --incumple: #9A4A06;
+  --serif: 'Newsreader', Georgia, serif; --sans: 'Source Sans 3', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--fondo); color: var(--tinta); font: 17px/1.5 var(--sans); overflow-wrap: anywhere; }
+main { max-width: 42rem; margin: 0 auto; padding: 0 16px 48px; }
+a { color: var(--enlace); }
+h1, h2, h3 { font-family: var(--serif); line-height: 1.2; }
+h1 { font-size: 1.9rem; } h2 { font-size: 1.4rem; margin-top: 2.2rem; border-top: 1px solid var(--linea); padding-top: 1rem; }
+.cabecera { border-bottom: 1px solid var(--linea); padding: 12px 16px; }
+.marca { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; color: var(--tinta); text-decoration: none; display: inline-block; min-height: 44px; line-height: 44px; }
+.marca span { color: var(--gris); font-weight: 400; }
+.pie { background: var(--tinta); color: var(--fondo); padding: 24px 16px; font-size: 15px; }
+.pie a { color: var(--fondo); display: inline-block; min-height: 44px; line-height: 44px; }
+.lema { font-family: var(--serif); font-style: italic; font-size: 1.25rem; color: var(--gris); }
+.ficha-partido { border-top: 1px solid var(--linea); padding: 14px 0; }
+.ficha-partido a.abrir { display: inline-block; min-height: 44px; line-height: 44px; font-weight: 600; }
+.cruce { border-left: 4px solid var(--linea); padding: 8px 0 8px 12px; margin: 16px 0; }
+.cruce.cumple { border-color: var(--cumple); } .cruce.incumple { border-color: var(--incumple); }
+.sello { font-weight: 600; text-transform: uppercase; letter-spacing: .04em; font-size: 15px; margin: 0; }
+.cruce.cumple .sello { color: var(--cumple); } .cruce.incumple .sello { color: var(--incumple); }
+.revisado { color: var(--gris); text-transform: none; letter-spacing: 0; font-weight: 400; }
+.promesa { font-weight: 600; margin: .3rem 0; }
+.cita { font-family: var(--serif); font-style: italic; color: var(--gris); margin: .3rem 0; }
+.votacion, .voto, .aviso { font-size: 15px; color: var(--gris); margin: .3rem 0; }
+.enlaces { list-style: none; padding: 0; margin: .4rem 0; display: flex; flex-wrap: wrap; gap: 0 16px; }
+.enlaces a { display: inline-block; min-height: 44px; line-height: 44px; font-size: 15px; }
+details > summary { min-height: 44px; line-height: 44px; cursor: pointer; color: var(--enlace); }
+.barra { display: grid; grid-template-columns: 1fr auto; gap: 8px; font-size: 15px; }
+.barra i { display: block; height: 6px; background: var(--gris); grid-column: 1 / -1; }
