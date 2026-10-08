@@ -2,7 +2,10 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: 'tests',
-  grepInvert: /@red/,
+  projects: [
+    { name: 'web', grepInvert: /@red/ },
+    { name: 'red', grep: /@red/ },
+  ],
   timeout: 60_000,
   use: { baseURL: 'http://localhost:4321', viewport: { width: 390, height: 844 }, browserName: 'chromium' },
   webServer: {

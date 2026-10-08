@@ -6,8 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview --port 4321",
-    "test": "playwright test",
-    "enlaces": "playwright test --grep @red --grep-invert SIN_EXCLUSIONES"
+    "test": "playwright test --project=web",
+    "enlaces": "playwright test --project=red"
   },
   "dependencies": {
     "astro": "^7.3.7"

@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import { datos, fecha } from '../lib/datos';
+import { FIRMA, REPO_MOTOR, REPO_WEB } from '../lib/config';
+const m = datos.meta;
+const programas = datos.partidos.filter((p) => p.programa_2023);
+const firmes = datos.cruces.filter((c) => c.nivel === 'veredicto').length;
+const juzga = datos.cruces.filter((c) => c.nivel === 'juzga_tu').length;
+---
+<Base titulo="Sobre este proyecto">
+  <h1>Sobre este proyecto</h1>
+
+  <h2>Quién y por qué</h2>
+  <p>Lo hice yo, {FIRMA}, para votar el 29 de noviembre con datos y no con simpatías, y lo comparto con mi gente
+    para que puedan hacer lo mismo. No tiene afiliación, ni financiación, ni publicidad. No dice a quién votar ni
+    ordena a los partidos de mejor a peor: ordenar ya sería opinar.</p>
+
+  <h2>En qué se basa</h2>
+  <ul>
+    <li><a href="https://www.congreso.es/es/opendata/votaciones" rel="noopener">Votaciones del Congreso</a>: el voto de cada diputado en cada votación del pleno de la XV legislatura, desde el {fecha(m.periodo.desde)} hasta el {fecha(m.periodo.hasta)}.</li>
+    <li><a href="https://www.congreso.es/es/opendata/iniciativas" rel="noopener">Iniciativas del Congreso</a>: el texto de cada ley o proposición en el Boletín Oficial de las Cortes Generales.</li>
+    <li><a href="https://www.boe.es/datosabiertos/" rel="noopener">BOE</a>: las leyes y decretos que se llegaron a publicar.</li>
+    <li>Los programas electorales de 2023 de cada partido:
+      {programas.map((p, i) => <>{i > 0 && ', '}<a href={p.programa_2023!} rel="noopener">{p.nombre}</a></>)}.</li>
+    <li><a href="https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_2023_TCuentas_Resoluci%C3%B3n.pdf" rel="noopener">Informe del Tribunal de Cuentas</a> sobre la contabilidad de la campaña de 2023.</li>
+  </ul>
+
+  <h2>Cómo se hizo, paso a paso</h2>
+  <ol>
+    <li>De cada programa se sacaron las promesas una a una, con su cita literal y su página. Si la cita no aparece tal cual en el programa, la promesa se descarta.</li>
+    <li>Para cada votación se buscan las promesas que más se le parecen en cada programa.</li>
+    <li>Tres modelos de inteligencia artificial de empresas distintas (DeepSeek, OpenAI y Google) leen la promesa y el título de la iniciativa, <strong>sin saber cómo votó nadie</strong>, y dicen si la promesa está a favor o en contra de lo que se vota. Cada uno lo hace dos veces y solo cuenta lo que repite.</li>
+    <li>El veredicto no lo da la inteligencia artificial: sale de comparar esa postura con el voto real del partido. A favor y votó Sí, cumple; a favor y votó No, incumple. En una enmienda de devolución, el voto se invierte. Una abstención nunca da veredicto.</li>
+    <li>Solo es veredicto firme cuando los tres coinciden, la votación decide exactamente lo prometido y el partido no votó dividido. Si no, va a «Juzga tú», con las mismas pruebas y sin veredicto.</li>
+    <li>Un «incumple» solo se publica como firme si lo he revisado a mano y lo marca así («Revisado a mano»). El resto se queda en «Juzga tú».</li>
+  </ol>
+
+  <h2>Cuánto acierta</h2>
+  <p>Sin maquillar. Las primeras pruebas acertaban el 64 % de lo que publicaban. Con la configuración final, 19 de 19
+    casos revisados a mano salieron bien. En la revisión de una muestra antes de publicar, 4 de 11 «incumple» salían
+    al revés: el sistema se rehízo para que la inteligencia artificial no viera los votos. Después, 5 de 11 «incumple»
+    seguían siendo dudosos, porque la máquina solo ve el título de la iniciativa y no su contenido: por eso un
+    «incumple» solo se publica revisado a mano. Hoy hay {firmes} veredictos firmes y {juzga} casos de «Juzga tú».</p>
+
+  <h2>Qué no mide y por qué</h2>
+  <ul>
+    <li>La corrupción: no hay una fuente oficial completa y neutral. Los titulares eligen qué contar.</li>
+    <li>El texto completo de las leyes: con él, los modelos que usamos empeoraban.</li>
+    <li>Los partidos sin programa propio en 2023: lo decimos en su ficha en lugar de atribuirles uno.</li>
+    <li>Lo que se negocia fuera del pleno: solo cuenta lo que se vota.</li>
+  </ul>
+
+  <h2>Cómo comprobar cualquier dato</h2>
+  <p>Cada caso lleva su cita literal, la página del programa, la votación del Congreso y, si existe, el boletín oficial.
+    Lo que respondió cada juez está en «Qué dijo cada juez». El código es público: el
+    <a href={REPO_MOTOR} rel="noopener">motor que recoge y cruza los datos</a> y
+    <a href={REPO_WEB} rel="noopener">esta web</a>, con las instrucciones exactas que reciben los jueces.</p>
+
+  <p class="aviso">Última actualización: {fecha(m.generado)}.</p>
+</Base>
