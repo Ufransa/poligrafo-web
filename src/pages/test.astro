@@ -100,13 +100,16 @@ const json = JSON.stringify(propuestas).replace(/</g, '\\u003c');
     $('.sin-concrecion').hidden = p.concreta;
     $('.inviable').hidden = !p.inviable;
     const caja = $('.condiciones');
-    caja.replaceChildren();
-    if (!p.condiciones.length) caja.append(el('p', 'aviso', 'No hemos identificado requisitos especiales.'));
-    for (const c of p.condiciones) {
+    caja.replaceChildren(...condiciones(p));
+  }
+
+  function condiciones(p: Propuesta): HTMLElement[] {
+    if (!p.condiciones.length) return [el('p', 'aviso', 'No hemos identificado requisitos especiales.')];
+    return p.condiciones.map((c) => {
       const d = el('details', 'condicion');
       d.append(el('summary', '', c.etiqueta), el('p', '', c.explicacion), enlace(c.url, c.norma));
-      caja.append(d);
-    }
+      return d;
+    });
   }
 
   function pintarDestape() {
@@ -118,7 +121,7 @@ const json = JSON.stringify(propuestas).replace(/</g, '\\u003c');
       const r = el('article', 'resultado');
       r.append(el('p', 'tema', p.tema), el('p', 'resumen', p.resumen), el('p', 'tu-voto', `Tu voto: ${voto}`),
                el('p', 'partido', p.partido_nombre), el('p', 'cita', `«${p.cita}»`),
-               enlace(p.url_programa_pagina, `Programa, pág. ${p.pagina}`));
+               enlace(p.url_programa_pagina, `Programa, pág. ${p.pagina}`), ...condiciones(p));
       if (p.cruce_2023) {
         const sentido = p.cruce_2023.veredicto === 'cumple' ? 'de acuerdo con' : 'en contra de';
         const c = el('p', 'cruce-2023',

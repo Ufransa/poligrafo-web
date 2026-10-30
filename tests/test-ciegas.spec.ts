@@ -168,3 +168,16 @@ test('la portada enlaza al test', async ({ page }) => {
   await page.getByRole('link', { name: 'Test a ciegas' }).first().click();
   await expect(page.locator('h1')).toHaveText('Test a ciegas');
 });
+
+test('el destape repite las condiciones de cada propuesta', async ({ page }) => {
+  await empezar(page, ['Vivienda']);
+  await votarTodas(page, VIVIENDA);
+  const resultados = page.locator('.destape .resultado');
+  for (let i = 0; i < VIVIENDA; i++) {
+    const r = resultados.nth(i);
+    const nombre = await r.locator('.partido').innerText();
+    const resumen = await r.locator('.resumen').innerText();
+    const p = deTema('Vivienda').find((x) => x.partido_nombre === nombre && x.resumen === resumen)!;
+    await expect(r.locator('details.condicion summary')).toHaveText(p.condiciones.map((c) => c.etiqueta));
+  }
+});
