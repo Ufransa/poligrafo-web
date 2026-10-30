@@ -1,7 +1,7 @@
 {
  "meta": {
-  "version_contrato": "1.0.0",
-  "generado": "2026-10-08T06:18:06+00:00",
+  "version_contrato": "1.2.0",
+  "generado": "2026-10-30T08:51:19+00:00",
   "periodo": {
    "desde": "2023-08-17",
    "hasta": "2026-09-30"
@@ -5385,6 +5385,7 @@
    "nivel": "veredicto",
    "veredicto": "incumple",
    "revisado_a_mano": true,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5409,6 +5410,7 @@
    "nivel": "veredicto",
    "veredicto": "incumple",
    "revisado_a_mano": true,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5433,6 +5435,7 @@
    "nivel": "veredicto",
    "veredicto": "incumple",
    "revisado_a_mano": true,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5457,6 +5460,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5481,6 +5485,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5505,6 +5510,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5529,6 +5535,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5553,6 +5560,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5574,6 +5582,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5595,6 +5604,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -5616,6 +5626,7 @@
    "nivel": "veredicto",
    "veredicto": "incumple",
    "revisado_a_mano": true,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5640,6 +5651,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5664,6 +5676,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5688,6 +5701,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5712,6 +5726,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5736,6 +5751,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -5757,6 +5773,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -5778,6 +5795,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -5799,6 +5817,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "en_contra",
@@ -5823,6 +5842,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5847,6 +5867,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5871,6 +5892,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "en_contra",
@@ -5895,6 +5917,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "en_contra",
@@ -5919,6 +5942,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -5940,6 +5964,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -5961,6 +5986,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -5985,6 +6011,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6009,6 +6036,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6033,6 +6061,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6057,6 +6086,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6078,6 +6108,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6102,6 +6133,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6123,6 +6155,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6147,6 +6180,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6171,6 +6205,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6195,6 +6230,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6219,6 +6255,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6243,6 +6280,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6267,6 +6305,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6288,6 +6327,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6309,6 +6349,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6330,6 +6371,7 @@
    "nivel": "veredicto",
    "veredicto": "incumple",
    "revisado_a_mano": true,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6354,6 +6396,7 @@
    "nivel": "veredicto",
    "veredicto": "incumple",
    "revisado_a_mano": true,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6378,6 +6421,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6402,6 +6446,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6426,6 +6471,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6450,6 +6496,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6474,6 +6521,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6495,6 +6543,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6516,6 +6565,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6537,6 +6587,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6558,6 +6609,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "en_contra",
@@ -6582,6 +6634,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6603,6 +6656,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6627,6 +6681,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6651,6 +6706,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6675,6 +6731,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6699,6 +6756,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6723,6 +6781,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6747,6 +6806,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -6768,6 +6828,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6792,6 +6853,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6816,6 +6878,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6840,6 +6903,7 @@
    "nivel": "veredicto",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6864,6 +6928,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "en_contra",
@@ -6885,6 +6950,7 @@
    "nivel": "juzga_tu",
    "veredicto": "incumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -6906,6 +6972,7 @@
    "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
+   "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
@@ -7134,5 +7201,1144 @@
    "transparencia": "sin_dato",
    "url_informe": "https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_2023_TCuentas_Resoluci%C3%B3n.pdf"
   }
- }
+ },
+ "test": [
+  {
+   "id": 64,
+   "tema": "Fiscalidad",
+   "resumen": "Se corregirán los efectos de la inflación en la tarifa del IRPF para evitar subidas reales de impuestos sobre la clase media, y se reducirá temporalmente el IVA a la carne, pescados y conservas.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "iva_dentro_margen",
+     "etiqueta": "IVA dentro del margen europeo",
+     "explicacion": "La directiva europea del IVA permite a cada país aplicar tipos reducidos, y en algunos productos básicos hasta el 0 %, a una lista de bienes y servicios (alimentos, medicamentos, transporte de viajeros, productos de higiene femenina, entre otros). España puede aprobarlo por ley sin pedir permiso a la UE, como hizo con los alimentos en 2023.",
+     "norma": "Directiva 2006/112/CE, art. 98 y anexo III (reformada por la Directiva (UE) 2022/542)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L0542",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PP",
+   "partido_nombre": "Partido Popular",
+   "cita": "41 APROBAREMOS UN ALIVIO FISCAL INMEDIATO A LAS FAMILIAS. Corregiremos los efectos de la inflación en la tarifa del IRPF que supone una subida real de impuestos sobre la clase media. Reduciremos el IVA a la carne, pescados y conservas con carácter temporal.",
+   "pagina": 23,
+   "url_programa_pagina": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf#page=23",
+   "cruce_2023": null
+  },
+  {
+   "id": 65,
+   "tema": "Fiscalidad",
+   "resumen": "Se elimina el impuesto a las grandes fortunas y se simplifican el IRPF y el Impuesto sobre Sociedades para las pymes, con atención a empresas con pérdidas o que aumenten su plantilla indefinida. También se reduce temporalmente el IVA de carne, pescados y conservas. La reforma se financia sin especificar, pero se enmarca en un objetivo de control del déficit y reducción de la presión fiscal.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PP",
+   "partido_nombre": "Partido Popular",
+   "cita": "42 REALIZAREMOS UNA REFORMA INTEGRAL DEL SISTEMA FISCAL con criterios de eficacia, equidad y sostenibilidad de los servicios públicos destinada a proteger el ahorro, la inversión y fomentar la creación de empleo. Eliminaremos el impuesto a las grandes fortunas, y simplificaremos el IRPF y el Impuesto sobre Sociedades para las pymes",
+   "pagina": 23,
+   "url_programa_pagina": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf#page=23",
+   "cruce_2023": null
+  },
+  {
+   "id": 122,
+   "tema": "Vivienda",
+   "resumen": "Se crea un programa de avales públicos para jóvenes de hasta 35 años, que cubre hasta el 95% del precio de la vivienda en créditos hipotecarios. La medida afecta a los compradores jóvenes y supone un gasto público en forma de garantías crediticias, sin especificar su financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PP",
+   "partido_nombre": "Partido Popular",
+   "cita": "LLEVAREMOS A CABO UN PROGRAMA DE AVALES DESTINADO A JÓVENES de hasta 35 años, a fin de garantizar la concesión de créditos hipotecarios por valor de hasta un 95% de la totalidad del precio de la vivienda.",
+   "pagina": 34,
+   "url_programa_pagina": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf#page=34",
+   "cruce_2023": null
+  },
+  {
+   "id": 345,
+   "tema": "Vivienda",
+   "resumen": "Se aprueba un paquete de medidas contra la ocupación ilegal de viviendas que permite desalojos en un plazo máximo de 24 horas, exime de cargas tributarias a las viviendas ocupadas ilegalmente e impide que los ocupas ilegales puedan empadronarse y disfrutar de los derechos asociados. Las medidas afectan a propietarios y ocupantes de viviendas. No se especifica el coste ni la forma de pago.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PP",
+   "partido_nombre": "Partido Popular",
+   "cita": "APROBAREMOS UN PAQUETE DE MEDIDAS “ANTI-OKUPACIÓN” para permitir que los desalojos se produzcan en un plazo máximo de 24 horas; que las viviendas ocupadas ilegalmente no sean objeto de carga tributaria; o impedir que los ocupas ilegales puedan empadronarse",
+   "pagina": 82,
+   "url_programa_pagina": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf#page=82",
+   "cruce_2023": null
+  },
+  {
+   "id": 543,
+   "tema": "Vivienda",
+   "resumen": "Se amplía hasta 37.800 € el umbral de ingresos para acceder a las medidas de apoyo a hipotecados afectados por la subida de tipos de interés, que incluyen la ampliación del crédito hasta 7 años y la congelación de la cuota durante 1 año.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PSOE",
+   "partido_nombre": "Partido Socialista Obrero Español",
+   "cita": "Ampliaremos hasta la renta media (37.800€) el umbral para acceder a las medidas de apoyo a los afectados por la subida de tipos de interés de las hipotecas: ampliación de crédito hasta 7 años y congelación de cuota de 1 año.",
+   "pagina": 32,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/65/82/06/programa-electoral-psoe-eleccions-generals-2023-pedro-sanchez.pdf#page=32",
+   "cruce_2023": null
+  },
+  {
+   "id": 551,
+   "tema": "Fiscalidad",
+   "resumen": "Se aumenta el mínimo por descendientes y personas dependientes en el IRPF, lo que reduce la base imponible del impuesto para las familias con hijos y para quienes cuidan de personas mayores o dependientes. La medida no especifica cuantía ni cómo se financia la pérdida de ingresos.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PSOE",
+   "partido_nombre": "Partido Socialista Obrero Español",
+   "cita": "Aumentaremos el mínimo por descendientes y personas dependientes en el IRPF con el fin de apoyar a las familias con hijos, impulsar la natalidad y acompañar en el cuidado de las personas mayores y dependiente.",
+   "pagina": 33,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/65/82/06/programa-electoral-psoe-eleccions-generals-2023-pedro-sanchez.pdf#page=33",
+   "cruce_2023": null
+  },
+  {
+   "id": 584,
+   "tema": "Fiscalidad",
+   "resumen": "Se mejorarán los incentivos por hijo y por dependencia y cuidados en el IRPF y en las políticas de gasto, sin concretar cuantías ni umbrales. La medida afecta a familias con hijos y personas dependientes o cuidadoras. No se especifica cómo se financia.",
+   "concreta": false,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PSOE",
+   "partido_nombre": "Partido Socialista Obrero Español",
+   "cita": "Para ello mejoraremos los incentivos por hijo y por dependencia y cuidados tanto en el IRPF como en las políticas de gasto.",
+   "pagina": 38,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/65/82/06/programa-electoral-psoe-eleccions-generals-2023-pedro-sanchez.pdf#page=38",
+   "cruce_2023": null
+  },
+  {
+   "id": 1072,
+   "tema": "Vivienda",
+   "resumen": "Se crea una línea de avales del ICO de 2.500 millones de euros para cubrir el 20% de la hipoteca de jóvenes menores de 35 años que compren su primera vivienda habitual, con el objetivo de facilitar la adquisición de unas 50.000 viviendas. La medida se financia con fondos públicos del ICO.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PSOE",
+   "partido_nombre": "Partido Socialista Obrero Español",
+   "cita": "Desarrollaremos y aplicaremos la nueva línea de avales del Instituto de Crédito Oficial (ICO) de 2.500 millones de euros para ayudar a los jóvenes menores de 35 años el sistema de avales del 20% de la hipoteca para la compra de la primera vivienda habitual para jóvenes",
+   "pagina": 130,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/65/82/06/programa-electoral-psoe-eleccions-generals-2023-pedro-sanchez.pdf#page=130",
+   "cruce_2023": null
+  },
+  {
+   "id": 1805,
+   "tema": "Vivienda",
+   "resumen": "Se impulsa la construcción de viviendas sociales públicas, en régimen de propiedad o alquiler con opción a compra, dirigidas a jóvenes y familias con menos recursos. No se especifica el número de viviendas ni la partida presupuestaria.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Vox",
+   "partido_nombre": "Vox",
+   "cita": "69. Impulsaremos la construcción viviendas sociales públicas en régimen de propiedad o arrendamiento con opción a compra para garantizar que los jóvenes y familias puedan adquirir un hogar, especialmente aquellos con menos recursos.",
+   "pagina": 41,
+   "url_programa_pagina": "https://files.mediaset.es/file/2023/0707/15/programa-vox-completo-pdf.pdf#page=41",
+   "cruce_2023": null
+  },
+  {
+   "id": 1807,
+   "tema": "Vivienda",
+   "resumen": "Se movilizará el suelo público de la Administración General del Estado y sus organismos para construir viviendas en alquiler social. La medida afecta a los ciudadanos con dificultades de acceso a la vivienda. No se especifica el número de viviendas ni la fuente de financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Vox",
+   "partido_nombre": "Vox",
+   "cita": "Movilizaremos el suelo público perteneciente a la Administración General del Estado y los organismos de ella dependientes para la promoción de vivienda en alquiler social.",
+   "pagina": 41,
+   "url_programa_pagina": "https://files.mediaset.es/file/2023/0707/15/programa-vox-completo-pdf.pdf#page=41",
+   "cruce_2023": null
+  },
+  {
+   "id": 1887,
+   "tema": "Fiscalidad",
+   "resumen": "Se simplifica el IRPF hacia un tipo único del 15% para bases imponibles inferiores a 70.000 euros y del 25% para las superiores, con una exención de 22.000 euros anuales en rentas del trabajo. Los tipos se reducen cuatro puntos por cada hijo. Afecta a todos los contribuyentes del IRPF. No se especifica cómo se financia la pérdida de ingresos.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Vox",
+   "partido_nombre": "Vox",
+   "cita": "simplificación progresiva y continuada del IRPF a un tipo único reducido del 15% a aplicar sobre bases imponibles inferiores a 70.000 euros y un tipo ordinario del 25% a aplicar a bases imponibles superiores a dicha cantidad, aplicando la exención de 22.000€ anuales de rentas del trabajo",
+   "pagina": 75,
+   "url_programa_pagina": "https://files.mediaset.es/file/2023/0707/15/programa-vox-completo-pdf.pdf#page=75",
+   "cruce_2023": null
+  },
+  {
+   "id": 1895,
+   "tema": "Fiscalidad",
+   "resumen": "Se crea una nueva deducción en el IRPF por nacimiento o adopción: 1.200 euros por el primer hijo, 1.600 por el segundo, 2.500 por el tercero y 2.750 por el cuarto en adelante, con posibilidad de cobro anticipado a través de la Agencia Tributaria. Afecta a todas las familias con hijos nacidos o adoptados. No se especifica cómo se financia.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Vox",
+   "partido_nombre": "Vox",
+   "cita": "Aprobaremos una nueva deducción por nacimiento o adopción en el IRPF, por un importe de 1.200 euros para el primer hijo, 1.600 euros por el segundo, 2.500 por el tercero y 2.750 por el cuarto hijo en adelante, con la posibilidad de cobro de manera anticipada a través de la Agencia Tributaria.",
+   "pagina": 76,
+   "url_programa_pagina": "https://files.mediaset.es/file/2023/0707/15/programa-vox-completo-pdf.pdf#page=76",
+   "cruce_2023": null
+  },
+  {
+   "id": 2208,
+   "tema": "Vivienda",
+   "resumen": "Se rehabilitarán 500.000 viviendas al año, centrándose en el aislamiento térmico y la instalación de sistemas eficientes de calefacción, refrigeración y agua caliente. La medida afecta a propietarios e inquilinos de viviendas, con el objetivo de reducir la demanda energética y el gasto en consumo. No se especifica la fuente de financiación ni el coste total.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Sumar",
+   "partido_nombre": "Sumar",
+   "cita": "Rehabilitación de 500.000 viviendas al año, abordando el aislamiento térmico así como la instalación de sistemas de calefacción, refrigeración y agua caliente eficientes",
+   "pagina": 10,
+   "url_programa_pagina": "https://www.newtral.es/wp-content/uploads/2023/07/Programa_electoral_sumar_23j_2023.pdf#page=10",
+   "cruce_2023": null
+  },
+  {
+   "id": 2249,
+   "tema": "Fiscalidad",
+   "resumen": "Se propone una reforma del sistema fiscal para aumentar su progresividad y elevar los ingresos públicos sobre el PIB hasta la media europea. La reforma se orienta a que contribuyan más las grandes empresas, los grandes patrimonios y las rentas altas. No se especifican los impuestos concretos que se modificarían ni el calendario de la reforma.",
+   "concreta": false,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Sumar",
+   "partido_nombre": "Sumar",
+   "cita": "Impulso de una profunda reforma del sistema fiscal español, para mejorar su progresividad y cerrar la brecha de ingresos sobre el PIB respecto a la media europea.",
+   "pagina": 15,
+   "url_programa_pagina": "https://www.newtral.es/wp-content/uploads/2023/07/Programa_electoral_sumar_23j_2023.pdf#page=15",
+   "cruce_2023": null
+  },
+  {
+   "id": 2250,
+   "tema": "Fiscalidad",
+   "resumen": "Se crea un impuesto permanente a las grandes fortunas con tipos progresivos de al menos el 4% para los patrimonios más elevados. Afecta a los titulares de grandes patrimonios. No se especifica el coste ni la forma de pago.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Sumar",
+   "partido_nombre": "Sumar",
+   "cita": "Implementaremos un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad, hasta llegar a tipos impositivos de al menos el 4% para los patrimonios más elevados.",
+   "pagina": 16,
+   "url_programa_pagina": "https://www.newtral.es/wp-content/uploads/2023/07/Programa_electoral_sumar_23j_2023.pdf#page=16",
+   "cruce_2023": null
+  },
+  {
+   "id": 2732,
+   "tema": "Vivienda",
+   "resumen": "Se invertirá el 1% del PIB durante diez años en construcción, compra, movilización y rehabilitación de vivienda para crear un parque de alquiler protegido de más de dos millones de viviendas en diez años. La inversión se financiará con presupuestos públicos y se utilizarán organismos públicos como Sareb y SEPES.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Sumar",
+   "partido_nombre": "Sumar",
+   "cita": "Invertiremos sostenidamente, durante diez años, el 1% del PIB en construcción, compra, movilización y rehabilitación de vivienda para generar un verdadero parque de alquiler protegido, social, sostenible y asequible de más dos millones de viviendas protegidas en los siguientes diez años.",
+   "pagina": 78,
+   "url_programa_pagina": "https://www.newtral.es/wp-content/uploads/2023/07/Programa_electoral_sumar_23j_2023.pdf#page=78",
+   "cruce_2023": null
+  },
+  {
+   "id": 3630,
+   "tema": "Vivienda",
+   "resumen": "Se propone limitar los precios de los alquileres para hacer frente a la emergencia habitacional. La medida afecta a inquilinos y propietarios de viviendas en alquiler. No se especifica el alcance territorial ni el mecanismo de financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "ERC",
+   "partido_nombre": "Esquerra Republicana",
+   "cita": "empenyent el govern espanyol a limitar els preus dels lloguers per fer front a l’emergència habitacional",
+   "pagina": 7,
+   "url_programa_pagina": "https://defensacatalunya.esquerrarepublicana.cat/documents/e2023-programa.pdf#page=7",
+   "cruce_2023": null
+  },
+  {
+   "id": 3827,
+   "tema": "Vivienda",
+   "resumen": "Se adoptarán medidas para garantizar el acceso a la vivienda a personas en situación de vulnerabilidad y se dotará de alternativas residenciales a residentes en asentamientos informales, promoviendo su realojamiento y soluciones temporales para quienes residen solo durante campañas agrícolas. No se especifica el coste ni la forma de pago.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "ERC",
+   "partido_nombre": "Esquerra Republicana",
+   "cita": "Adoptar mesures per a garantir l'accés a l'habitatge a les persones en situació de vulnerabilitat i dotar d'alternatives residencials per a les persones residents en assentaments informals, promovent el seu reallotjament i solucions residencials temporals per a aquelles que només ho fan durant les campanyes agrícoles.",
+   "pagina": 44,
+   "url_programa_pagina": "https://defensacatalunya.esquerrarepublicana.cat/documents/e2023-programa.pdf#page=44",
+   "cruce_2023": null
+  },
+  {
+   "id": 3875,
+   "tema": "Fiscalidad",
+   "resumen": "Se propone crear tres nuevos impuestos: uno sobre las grandes fortunas, otro sobre las transacciones financieras y un tercero sobre las emisiones de CO2. Estos impuestos afectarían a las personas con grandes patrimonios, a las operaciones financieras y a las actividades que emiten CO2. El programa no especifica los tipos impositivos, los umbrales ni el destino concreto de la recaudación, pero indica que servirían para financiar políticas públicas y evitar recortes.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "ERC",
+   "partido_nombre": "Esquerra Republicana",
+   "cita": "Cal crear impostos sobre les grans fortunes, les transaccions financeres o les emissions de CO2",
+   "pagina": 54,
+   "url_programa_pagina": "https://defensacatalunya.esquerrarepublicana.cat/documents/e2023-programa.pdf#page=54",
+   "cruce_2023": null
+  },
+  {
+   "id": 3951,
+   "tema": "Fiscalidad",
+   "resumen": "Se incrementan los tipos impositivos aplicados a las rentas del capital y se crean nuevos tramos adicionales para las rentas más altas en el IRPF. La medida afecta a los contribuyentes con ingresos por capital y a las rentas más elevadas. No se especifica el alcance cuantitativo ni la forma de pago.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "ERC",
+   "partido_nombre": "Esquerra Republicana",
+   "cita": "incrementar els tipus aplicats a les rendes del capital així com crear nous trams addicionals per a les rendes més altes",
+   "pagina": 70,
+   "url_programa_pagina": "https://defensacatalunya.esquerrarepublicana.cat/documents/e2023-programa.pdf#page=70",
+   "cruce_2023": null
+  },
+  {
+   "id": 4477,
+   "tema": "Fiscalidad",
+   "resumen": "Se crea una Agencia Tributaria de Cataluña que recaude, gestione, liquide e inspeccione todos los tributos generados en Cataluña, asumiendo la Generalitat la titularidad de todos los impuestos soportados en su territorio. La medida afecta a todos los contribuyentes y empresas en Cataluña, y se financia con la propia recaudación tributaria, sin que el programa detalle el coste.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_organica",
+     "etiqueta": "Ley orgánica (176 votos)",
+     "explicacion": "Necesita una ley orgánica: mayoría absoluta del Congreso, al menos 176 de los 350 diputados, en una votación final sobre el conjunto de la ley.",
+     "norma": "Art. 81 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a81",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Junts",
+   "partido_nombre": "Junts per Catalunya",
+   "cita": "L’Agència Tributària de Catalunya ha de poder recaptar, gestionar, liquidar i inspeccionar tots els tributs generats a Catalunya.",
+   "pagina": 57,
+   "url_programa_pagina": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf#page=57",
+   "cruce_2023": null
+  },
+  {
+   "id": 4488,
+   "tema": "Fiscalidad",
+   "resumen": "Se crea un nuevo impuesto sobre la facturación en publicidad de grandes compañías tecnológicas (Google, Facebook, Amazon, etc.), preferentemente a nivel de la UE. Afecta a las grandes tecnológicas. No se especifica el tipo impositivo ni la recaudación prevista. Se financia con los ingresos del propio impuesto.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "ue_fiscalidad_armonizada",
+     "etiqueta": "Depende de la UE",
+     "explicacion": "El IVA y los impuestos especiales están armonizados en la Unión Europea. España solo puede moverse dentro de los márgenes de las directivas (por ejemplo, los tipos reducidos que permiten); salir de ellos exige cambiar la directiva, y en fiscalidad el Consejo de la UE decide por unanimidad de los 27.",
+     "norma": "Directiva 2006/112/CE y art. 113 del Tratado de Funcionamiento de la UE",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006L0112",
+     "inviable": true
+    }
+   ],
+   "inviable": true,
+   "partido": "Junts",
+   "partido_nombre": "Junts per Catalunya",
+   "cita": "som partidaris de l’articulació de l’anomenada “taxa Google” o taxa digital, un nou impost aplicable sobre la facturació en publicitat de les grans companyies tecnològiques a cada país",
+   "pagina": 59,
+   "url_programa_pagina": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf#page=59",
+   "cruce_2023": null
+  },
+  {
+   "id": 4701,
+   "tema": "Vivienda",
+   "resumen": "Se aumentarán progresivamente los fondos estatales para políticas de vivienda hasta alcanzar el 0,6% del PIB, la media europea. La medida afecta al conjunto del Estado y se financia con presupuestos públicos.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Junts",
+   "partido_nombre": "Junts per Catalunya",
+   "cita": "Augmentar progressivament els fons estatals destinats a polítiques d’habitatge, per a situar-los en la mitjana europea, del 0,6 % del PIB.",
+   "pagina": 94,
+   "url_programa_pagina": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf#page=94",
+   "cruce_2023": null
+  },
+  {
+   "id": 4705,
+   "tema": "Vivienda",
+   "resumen": "Se exige el traspaso de los pisos de la SAREB a Cataluña para incorporarlos al parque de alquiler asequible, con el fin de incentivar la emancipación juvenil, junto con la financiación necesaria para acondicionarlos y hacerlos habitables.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "Junts",
+   "partido_nombre": "Junts per Catalunya",
+   "cita": "Exigim el traspàs anunciat dels habitatges propietat de la SAREB a Catalunya per tal d'incentivar l’emancipació́ dels joves a través de la seva incorporació́ al parc de lloguer assequible, juntament amb el finançament necessari per condicionar-los i fer-los habitables",
+   "pagina": 97,
+   "url_programa_pagina": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf#page=97",
+   "cruce_2023": null
+  },
+  {
+   "id": 4957,
+   "tema": "Vivienda",
+   "resumen": "Se propone aprobar una ley de vivienda que limite los alquileres, declare zonas tensionadas y restrinja la actuación de los fondos de inversión en el mercado inmobiliario. La medida afecta a inquilinos, propietarios y fondos buitre. No se especifica su coste ni su forma de financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "EH Bildu",
+   "partido_nombre": "EH Bildu",
+   "cita": "aprobar la Ley de Vivienda que limita los alquileres, declara zonas tensionadas y pone coto a los fondos buitre;",
+   "pagina": 2,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf#page=2",
+   "cruce_2023": null
+  },
+  {
+   "id": 4958,
+   "tema": "Fiscalidad",
+   "resumen": "Se crearían impuestos a la banca, las eléctricas y las grandes fortunas, y se transferiría su gestión a las haciendas forales del País Vasco. La medida afecta a entidades financieras, empresas energéticas y grandes patrimonios. No se especifican tipos impositivos ni plazos. Se financia con la recaudación de esos nuevos impuestos.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "EH Bildu",
+   "partido_nombre": "EH Bildu",
+   "cita": "aprobar los impuestos a la Banca, las eléctricas y las grandes fortunas logrando la gestión propia para nuestras haciendas forales;",
+   "pagina": 2,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf#page=2",
+   "cruce_2023": null
+  },
+  {
+   "id": 4970,
+   "tema": "Vivienda",
+   "resumen": "Se recupera de forma indefinida la prórroga automática de los contratos de alquiler en caso de renovación, manteniendo las condiciones y cuantías de renta. La medida afecta a inquilinos y arrendadores de viviendas en alquiler. No se especifica su coste ni su forma de financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "EH Bildu",
+   "partido_nombre": "EH Bildu",
+   "cita": "Recuperar, de manera indefinida, la prórroga automática de los contratos de alquiler en caso de renovación, manteniendo condiciones y cuantías de renta.",
+   "pagina": 4,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf#page=4",
+   "cruce_2023": null
+  },
+  {
+   "id": 4979,
+   "tema": "Fiscalidad",
+   "resumen": "Se crea un impuesto especial sobre los beneficios de las grandes distribuidoras alimentarias. Afecta a estas empresas, sin especificar umbrales de facturación o beneficios. No se detalla el tipo impositivo ni el destino de la recaudación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "EH Bildu",
+   "partido_nombre": "EH Bildu",
+   "cita": "Impuesto especial sobre los beneficios de grandes distribuidoras alimentarias.",
+   "pagina": 5,
+   "url_programa_pagina": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf#page=5",
+   "cruce_2023": null
+  },
+  {
+   "id": 5085,
+   "tema": "Fiscalidad",
+   "resumen": "Se reclamará la capacidad de regulación del IVA para las instituciones vascas, permitiendo que estas fijen los tipos y bienes gravados. Además, se propondrá una revisión del listado de bienes y servicios y de los tipos impositivos del IVA para reducir la desigualdad. No se especifica el coste ni la financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_organica",
+     "etiqueta": "Ley orgánica (176 votos)",
+     "explicacion": "Necesita una ley orgánica: mayoría absoluta del Congreso, al menos 176 de los 350 diputados, en una votación final sobre el conjunto de la ley.",
+     "norma": "Art. 81 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a81",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PNV",
+   "partido_nombre": "EAJ-PNV",
+   "cita": "Reclamaremos, asimismo, la capacidad de regulación de este impuesto para las instituciones vascas.",
+   "pagina": 17,
+   "url_programa_pagina": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j#page=17",
+   "cruce_2023": null
+  },
+  {
+   "id": 5086,
+   "tema": "Fiscalidad",
+   "resumen": "Se propone revisar los tipos de IVA (general, reducido y superreducido) y el listado de bienes y servicios a los que se aplican, con el objetivo de reducir la desigualdad que genera este impuesto. La medida afecta a todos los consumidores y negocios. No se especifica su coste ni cómo se financia.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "iva_dentro_margen",
+     "etiqueta": "IVA dentro del margen europeo",
+     "explicacion": "La directiva europea del IVA permite a cada país aplicar tipos reducidos, y en algunos productos básicos hasta el 0 %, a una lista de bienes y servicios (alimentos, medicamentos, transporte de viajeros, productos de higiene femenina, entre otros). España puede aprobarlo por ley sin pedir permiso a la UE, como hizo con los alimentos en 2023.",
+     "norma": "Directiva 2006/112/CE, art. 98 y anexo III (reformada por la Directiva (UE) 2022/542)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L0542",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PNV",
+   "partido_nombre": "EAJ-PNV",
+   "cita": "propondremos una revisión del listado de bienes y servicios como de los tipos general, reducido y superreducido, para abordar esta problemática y evitar inequidades.",
+   "pagina": 17,
+   "url_programa_pagina": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j#page=17",
+   "cruce_2023": null
+  },
+  {
+   "id": 5211,
+   "tema": "Vivienda",
+   "resumen": "Se atenderá de manera especial a las situaciones de emergencia social en materia de vivienda, dentro del ámbito competencial exclusivo de la comunidad autónoma.",
+   "concreta": false,
+   "condiciones": [
+    {
+     "clave": "exclusiva_autonomica",
+     "etiqueta": "No es competencia del Estado",
+     "explicacion": "Es competencia de las comunidades autónomas: las Cortes no pueden aprobarla para todo el país; tendría que hacerlo cada comunidad.",
+     "norma": "Art. 148 de la Constitución y Estatutos de Autonomía",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": true
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": true,
+   "partido": "PNV",
+   "partido_nombre": "EAJ-PNV",
+   "cita": "atienda de manera especial a las situaciones de emergencia social, tal y como se viene desarrollando por el Gobierno Vasco",
+   "pagina": 45,
+   "url_programa_pagina": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j#page=45",
+   "cruce_2023": null
+  },
+  {
+   "id": 5212,
+   "tema": "Vivienda",
+   "resumen": "Se impulsarán acuerdos como el logrado para la ciudad de Donostia con los terrenos de Loiola, donde se construirán cientos de viviendas. No se especifica el número exacto de viviendas, el plazo ni la forma de financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "PNV",
+   "partido_nombre": "EAJ-PNV",
+   "cita": "EAJ-PNV se compromete igualmente a seguir impulsando acuerdos como el logrado para la ciudad de Donostia con los terrenos de Loiola, donde se construirán cientos de viviendas.",
+   "pagina": 46,
+   "url_programa_pagina": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j#page=46",
+   "cruce_2023": null
+  },
+  {
+   "id": 5275,
+   "tema": "Fiscalidad",
+   "resumen": "Se propone aplicar impuestos a la banca, a las empresas energéticas y a las grandes fortunas. La medida afecta a estas entidades y personas con alto patrimonio, sin que se especifiquen tipos impositivos ni umbrales. No se detalla cómo se pagaría ni su coste.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "BNG",
+   "partido_nombre": "Bloque Nacionalista Galego",
+   "cita": "na aplicación de impostos á banca, ás enerxéticas e ás grandes fortunas",
+   "pagina": 5,
+   "url_programa_pagina": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf#page=5",
+   "cruce_2023": null
+  },
+  {
+   "id": 5298,
+   "tema": "Vivienda",
+   "resumen": "Se aumenta la inversión en vivienda hasta alcanzar los 250 euros por habitante. La medida afecta a toda la población, especialmente a quienes necesitan acceso a vivienda pública. No se especifica cómo se financia.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "BNG",
+   "partido_nombre": "Bloque Nacionalista Galego",
+   "cita": "Aumentar o investimento destinado á vivenda até alcanzar os 250 euros por habitante.",
+   "pagina": 15,
+   "url_programa_pagina": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf#page=15",
+   "cruce_2023": null
+  },
+  {
+   "id": 5300,
+   "tema": "Vivienda",
+   "resumen": "Se transfieren de forma gratuita las viviendas, suelos y promociones de la SAREB al parque público de vivienda de Galicia en las zonas donde exista demanda, para aumentar la oferta de vivienda pública.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "compartida_vivienda",
+     "etiqueta": "Competencia compartida",
+     "explicacion": "La vivienda es competencia de las comunidades autónomas. El Estado puede actuar con ayudas y financiación, impuestos, legislación civil (por ejemplo, la de alquileres) o las bases de la planificación económica, pero la gestión y buena parte de la regulación dependen de cada comunidad.",
+     "norma": "Arts. 148.1.3.ª y 149.1.8.ª y 13.ª de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "BNG",
+   "partido_nombre": "Bloque Nacionalista Galego",
+   "cita": "transferir de forma gratuíta as vivendas, solos e promocións da SAREB, de forma que permitan aumentar a oferta de parque público de vivenda do IGVS alí onde exista demanda.",
+   "pagina": 15,
+   "url_programa_pagina": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf#page=15",
+   "cruce_2023": null
+  },
+  {
+   "id": 5414,
+   "tema": "Fiscalidad",
+   "resumen": "Se establece una rebaja permanente del IVA de productos de alimentación básica, productos del mar, higiene personal y femenina, transporte público, inversiones en eficiencia energética y energías renovables en hogares y pymes. Afecta a consumidores y pequeñas y medianas empresas. No se especifica el coste ni la financiación.",
+   "concreta": true,
+   "condiciones": [
+    {
+     "clave": "ley_ordinaria",
+     "etiqueta": "Ley ordinaria",
+     "explicacion": "Necesita una ley aprobada por las Cortes por mayoría simple: más votos a favor que en contra.",
+     "norma": "Arts. 66 y 90 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a90",
+     "inviable": false
+    },
+    {
+     "clave": "iva_dentro_margen",
+     "etiqueta": "IVA dentro del margen europeo",
+     "explicacion": "La directiva europea del IVA permite a cada país aplicar tipos reducidos, y en algunos productos básicos hasta el 0 %, a una lista de bienes y servicios (alimentos, medicamentos, transporte de viajeros, productos de higiene femenina, entre otros). España puede aprobarlo por ley sin pedir permiso a la UE, como hizo con los alimentos en 2023.",
+     "norma": "Directiva 2006/112/CE, art. 98 y anexo III (reformada por la Directiva (UE) 2022/542)",
+     "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L0542",
+     "inviable": false
+    },
+    {
+     "clave": "coste",
+     "etiqueta": "Coste para las cuentas públicas",
+     "explicacion": "Si supone un gasto que se repite cada año, necesita dinero asignado en los Presupuestos Generales del Estado. Además, el Gobierno puede negarse a que se tramite una proposición de ley que aumente el gasto o reduzca los ingresos del año en curso.",
+     "norma": "Art. 134.6 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a134",
+     "inviable": false
+    }
+   ],
+   "inviable": false,
+   "partido": "BNG",
+   "partido_nombre": "Bloque Nacionalista Galego",
+   "cita": "Estabelecer a rebaixa permanente do IVE de produtos de alimentación básica, produtos do mar, elementos de hixiene persoal e feminina, transporte público de pasaxeiros, investimentos en eficiencia enerxética e enerxías renovábeis no ámbito doméstico e nas pequenas e medianas empresas.",
+   "pagina": 40,
+   "url_programa_pagina": "https://www.bng.gal/media/bnggaliza/files/2023/07/05/23_bng_xerais_programa.pdf#page=40",
+   "cruce_2023": null
+  },
+  {
+   "id": -1,
+   "tema": "Vivienda",
+   "resumen": "Propuesta de prueba con <i>etiquetas</i>, «comillas» & símbolos.",
+   "concreta": false,
+   "condiciones": [
+    {
+     "clave": "exclusiva_autonomica",
+     "etiqueta": "No es competencia del Estado",
+     "explicacion": "Explicación de prueba.",
+     "norma": "Art. 148 de la Constitución",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a148",
+     "inviable": true
+    }
+   ],
+   "inviable": true,
+   "partido": "PP",
+   "partido_nombre": "Partido Popular",
+   "cita": "41 APROBAREMOS UN ALIVIO FISCAL INMEDIATO A LAS FAMILIAS. Corregiremos los efectos de la inflación en la tarifa del IRPF que supone una subida real de impuestos sobre la clase media. Reduciremos el IVA a la carne, pescados y conservas con carácter temporal.",
+   "pagina": 23,
+   "url_programa_pagina": "https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf#page=23",
+   "cruce_2023": {
+    "veredicto": "cumple",
+    "votacion_id": "11-2",
+    "expediente": "Proposición de Ley del Grupo Parlamentario VOX, Orgánica para la modificación de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de delitos contra la libertad e indemnidad sexuales.",
+    "fecha": "2023-12-12",
+    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=12/12/2023"
+   }
+  }
+ ]
 }

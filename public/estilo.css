@@ -31,3 +31,17 @@ h1 { font-size: 1.9rem; } h2 { font-size: 1.4rem; margin-top: 2.2rem; border-top
 details > summary { min-height: 44px; line-height: 44px; cursor: pointer; color: var(--enlace); }
 .barra { display: grid; grid-template-columns: 1fr auto; gap: 8px; font-size: 15px; }
 .barra i { display: block; height: 6px; background: var(--gris); grid-column: 1 / -1; }
+.temas { border: 1px solid var(--linea); padding: 8px 12px; margin: 16px 0; }
+.tema-label { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.tema-label input { width: 22px; height: 22px; }
+.boton { font: 600 17px var(--sans); min-height: 48px; padding: 0 20px; border: 2px solid var(--tinta); background: var(--tinta); color: var(--fondo); cursor: pointer; }
+.boton:disabled { opacity: .4; cursor: default; }
+.boton.secundario { background: transparent; color: var(--tinta); margin-top: 16px; }
+.votar { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+.progreso, .tema { font-size: 15px; color: var(--gris); margin: .3rem 0; }
+.resumen { font-family: var(--serif); font-size: 1.2rem; }
+.sin-concrecion, .inviable { font-size: 15px; border-left: 4px solid var(--incumple); padding-left: 10px; }
+.condicion p { margin: .2rem 0 .4rem; font-size: 15px; }
+.resultado { border-top: 1px solid var(--linea); padding: 14px 0; }
+.tu-voto, .partido { font-weight: 600; margin: .3rem 0; }
+.cruce-2023 { font-size: 15px; border-left: 4px solid var(--cumple); padding-left: 10px; }
