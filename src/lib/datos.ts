@@ -25,6 +25,15 @@ export interface Finanzas {
   gasto_justificado_eur: number; endeudamiento_eur: number; propuesta_reduccion_subvencion: boolean;
   pagina: number; transparencia: string; url_informe: string;
 }
+export interface CondicionTest {
+  clave: string; etiqueta: string; explicacion: string; norma: string; url: string; inviable: boolean;
+}
+export interface PropuestaTest {
+  id: number; tema: string; resumen: string; concreta: boolean; condiciones: CondicionTest[]; inviable: boolean;
+  partido: string; partido_nombre: string; cita: string; pagina: number; url_programa_pagina: string;
+  cruce_2023: { veredicto: 'cumple' | 'incumple'; votacion_id: string; expediente: string; fecha: string;
+                url_sesion: string | null } | null;
+}
 export interface Datos {
   meta: { version_contrato: string; generado: string; periodo: { desde: string; hasta: string };
           recuentos: { votaciones: number; promesas: number; veredictos: number } };
@@ -33,6 +42,7 @@ export interface Datos {
   coherencia: Record<string, { clave_iniciativa: string; a_favor: string; en_contra: string }[]>;
   gobierno: Record<string, { votacion_id: string; promesa_id: number; url_boe: string | null }[]>;
   finanzas: Record<string, Finanzas>;
+  test?: PropuestaTest[];
 }
 
 function cargar(): Datos {

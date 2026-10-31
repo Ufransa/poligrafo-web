@@ -1,0 +1,164 @@
+---
+import Base from '../layouts/Base.astro';
+import { datos, fecha } from '../lib/datos';
+
+// Test a ciegas: ver poligrafo-es/docs/superpowers/specs/2026-10-30-test-a-ciegas-design.md
+const propuestas = (datos.test ?? []).map((p) => ({ ...p, cruce_fecha: p.cruce_2023 ? fecha(p.cruce_2023.fecha) : null }));
+const temas = [...new Set(Object.values(datos.temas).flatMap((porAnio) => Object.values(porAnio).flatMap((t) => Object.keys(t))))]
+  .sort((a, b) => a.localeCompare(b, 'es'));
+const cuenta = (t: string) => propuestas.filter((p) => p.tema === t).length;
+const partidos = [...new Set(propuestas.map((p) => p.partido_nombre))].sort((a, b) => a.localeCompare(b, 'es'));
+const json = JSON.stringify(propuestas).replace(/</g, '\\u003c');
+---
+<Base titulo="Test a ciegas">
+  <section class="entrada">
+    <h1>Test a ciegas</h1>
+    <p class="lema">Vota propuestas de los programas sin saber de quién son. Al final te enseñamos de qué partido era cada una.</p>
+    <p>Cada propuesta lleva lo que haría falta para aprobarla: qué mayoría necesita, si depende de la Unión Europea o si es competencia de las comunidades autónomas.</p>
+    <p class="aviso">No guardamos nada: tus votos se quedan en este navegador y desaparecen al recargar la página. Tampoco te damos ningún resultado por partido.</p>
+    {partidos.length > 0
+      ? <p class="aviso">Incluye los programas de: {partidos.join(', ')}.</p>
+      : <p class="aviso">Las propuestas llegan con los programas electorales de 2026. Vuelve a mirar en unos días.</p>}
+    <fieldset class="temas">
+      <legend>Elige los temas</legend>
+      {temas.map((t) => (
+        <label class="tema-label"><input type="checkbox" class="tema-opcion" value={t} autocomplete="off" disabled={cuenta(t) === 0} />{t} ({cuenta(t)})</label>
+      ))}
+    </fieldset>
+    <button type="button" class="boton" id="empezar" disabled>Empezar</button>
+  </section>
+
+  <section class="tarjeta" hidden>
+    <p class="progreso"></p>
+    <p class="tema"></p>
+    <p class="resumen"></p>
+    <p class="sin-concrecion" hidden>Sin concreción: el programa no dice qué medida tomaría.</p>
+    <p class="inviable" hidden>Las Cortes no pueden aprobarla por sí solas o exige la reforma agravada de la Constitución. Abre las condiciones para ver por qué.</p>
+    <h3>Qué haría falta</h3>
+    <div class="condiciones"></div>
+    <div class="votar">
+      <button type="button" class="boton" data-voto="Sí">Sí</button>
+      <button type="button" class="boton" data-voto="No">No</button>
+    </div>
+    <button type="button" class="boton secundario" id="ver">Ver de quién eran</button>
+  </section>
+
+  <section class="destape" hidden>
+    <h2>De quién eran</h2>
+    <div class="resultados"></div>
+    <button type="button" class="boton" id="reiniciar">Volver a empezar</button>
+  </section>
+
+  <script type="application/json" id="datos-test" set:html={json} />
+</Base>
+
+<script>
+  type Condicion = { etiqueta: string; explicacion: string; norma: string; url: string };
+  type Propuesta = {
+    id: number; tema: string; resumen: string; concreta: boolean; inviable: boolean; condiciones: Condicion[];
+    partido_nombre: string; cita: string; pagina: number; url_programa_pagina: string; cruce_fecha: string | null;
+    cruce_2023: { veredicto: string; expediente: string; url_sesion: string | null } | null;
+  };
+  const todas: Propuesta[] = JSON.parse(document.getElementById('datos-test')!.textContent || '[]');
+  const $ = <T extends HTMLElement>(s: string) => document.querySelector<T>(s)!;
+  const entrada = $('.entrada'), tarjeta = $('.tarjeta'), destape = $('.destape');
+  const opciones = [...document.querySelectorAll<HTMLInputElement>('.tema-opcion')];
+  const empezar = $<HTMLButtonElement>('#empezar');
+  let orden: Propuesta[] = [];
+  let votos: string[] = [];
+
+  // Todo el texto va con textContent: lo que venga en los datos nunca se interpreta como HTML.
+  function el(tag: string, clase: string, texto = ''): HTMLElement {
+    const e = document.createElement(tag);
+    if (clase) e.className = clase;
+    e.textContent = texto;
+    return e;
+  }
+  function enlace(href: string, texto: string): HTMLAnchorElement {
+    const a = el('a', '', texto) as HTMLAnchorElement;
+    a.href = href;
+    a.rel = 'noopener';
+    return a;
+  }
+  function mezclar<T>(xs: T[]): T[] {
+    for (let i = xs.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [xs[i], xs[j]] = [xs[j], xs[i]];
+    }
+    return xs;
+  }
+  function mostrar(seccion: HTMLElement) {
+    for (const s of [entrada, tarjeta, destape]) s.hidden = s !== seccion;
+    window.scrollTo(0, 0);
+  }
+
+  function pintarTarjeta() {
+    const p = orden[votos.length];
+    $('.progreso').textContent = `${votos.length + 1} de ${orden.length}`;
+    $('.tarjeta .tema').textContent = p.tema;
+    $('.tarjeta .resumen').textContent = p.resumen;
+    $('.sin-concrecion').hidden = p.concreta;
+    $('.inviable').hidden = !p.inviable;
+    const caja = $('.condiciones');
+    caja.replaceChildren(...condiciones(p));
+  }
+
+  function condiciones(p: Propuesta): HTMLElement[] {
+    if (!p.condiciones.length) return [el('p', 'aviso', 'No hemos identificado requisitos especiales.')];
+    return p.condiciones.map((c) => {
+      const d = el('details', 'condicion');
+      d.append(el('summary', '', c.etiqueta), el('p', '', c.explicacion), enlace(c.url, c.norma));
+      return d;
+    });
+  }
+
+  function pintarDestape() {
+    const caja = $('.resultados');
+    caja.replaceChildren();
+    if (!votos.length) caja.append(el('p', 'aviso', 'Aún no has votado ninguna propuesta.'));
+    votos.forEach((voto, i) => {
+      const p = orden[i];
+      const r = el('article', 'resultado');
+      r.append(el('p', 'tema', p.tema), el('p', 'resumen', p.resumen), el('p', 'tu-voto', `Tu voto: ${voto}`),
+               el('p', 'partido', p.partido_nombre), el('p', 'cita', `«${p.cita}»`),
+               enlace(p.url_programa_pagina, `Programa, pág. ${p.pagina}`), ...condiciones(p));
+      if (p.cruce_2023) {
+        const sentido = p.cruce_2023.veredicto === 'cumple' ? 'de acuerdo con' : 'en contra de';
+        const c = el('p', 'cruce-2023',
+          `Ya lo prometió en 2023. En la XV legislatura votó ${sentido} esa promesa en «${p.cruce_2023.expediente}» (${p.cruce_fecha}). `);
+        if (p.cruce_2023.url_sesion) c.append(enlace(p.cruce_2023.url_sesion, 'Ver la sesión'));
+        r.append(c);
+      }
+      caja.append(r);
+    });
+    mostrar(destape);
+  }
+
+  function reiniciar() {
+    orden = [];
+    votos = [];
+    for (const o of opciones) o.checked = false;
+    empezar.disabled = true;
+    mostrar(entrada);
+  }
+
+  for (const o of opciones) o.addEventListener('change', () => { empezar.disabled = !opciones.some((x) => x.checked); });
+  empezar.addEventListener('click', () => {
+    const elegidos = new Set(opciones.filter((o) => o.checked).map((o) => o.value));
+    orden = mezclar(todas.filter((p) => elegidos.has(p.tema)));
+    votos = [];
+    if (!orden.length) return;
+    pintarTarjeta();
+    mostrar(tarjeta);
+  });
+  for (const b of document.querySelectorAll<HTMLButtonElement>('[data-voto]')) {
+    b.addEventListener('click', () => {
+      votos.push(b.dataset.voto!);
+      if (votos.length === orden.length) pintarDestape();
+      else pintarTarjeta();
+    });
+  }
+  $('#ver').addEventListener('click', pintarDestape);
+  $('#reiniciar').addEventListener('click', reiniciar);
+  reiniciar();
+</script>

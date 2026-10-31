@@ -6,6 +6,7 @@ const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
 <Base titulo="Los partidos">
   <h1>Los partidos</h1>
   <p class="lema">Aquí no te decimos a quién votar. Te enseñamos lo que prometieron y lo que votaron.</p>
+  <p class="aviso">¿Prefieres juzgar las propuestas sin saber de quién son? Prueba el <a href="/test/">Test a ciegas</a>.</p>
   {partidosOrdenados().map((p) => {
     const temas = temasDe(p.id).slice(0, 3);
     return (
