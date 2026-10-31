@@ -4,6 +4,7 @@ Uso: python scripts/crear_fixture.py <datos.json del motor> tests/fixtures/datos
 Conserva todos los partidos, temas, finanzas, coherencia y gobierno; de cruces, todos los revisados a mano,
 4 firmes más, 3 «juzga tú» y 1 con voto dividido por partido. Del test a ciegas, 2 propuestas por partido y tema
 más una sintética con los casos límite (texto con <, & y comillas; sin concreción; inviable; con cruce de 2023).
+Si ningún cruce firme cae en una norma que mezcla asuntos, se le pone la nota a uno.
 """
 import json
 import sys
@@ -22,6 +23,12 @@ vids = ({c["votacion_id"] for c in sel} | {g["votacion_id"] for g in gob}
 pids = {c["promesa_id"] for c in sel} | {g["promesa_id"] for g in gob}
 d["cruces"] = sel
 d["votaciones"] = [v for v in d["votaciones"] if v["id"] in vids]
+# Al menos un cruce firme sobre una norma que mezcla asuntos, para probar la nota.
+firme_vids = {c["votacion_id"] for c in sel if c["nivel"] == "veredicto"}
+if not any(v.get("mezcla") for v in d["votaciones"] if v["id"] in firme_vids):
+    v = next(v for v in d["votaciones"] if v["id"] in firme_vids)
+    v["mezcla"] = {"motivo": "Esta norma también toca asuntos que no anuncia su título: el IRPF. "
+                             "El voto puede deberse a esa otra parte."}
 d["promesas"] = [p for p in d["promesas"] if p["id"] in pids]
 test, vistos = [], {}
 for t in d.get("test", []):

@@ -85,3 +85,10 @@ test('la cabecera de la ficha separa las frases', async ({ page }) => {
     expect(await page.locator('main > p.aviso').first().innerText()).not.toMatch(/\.[A-ZÁÉÍÓÚ]/);
   }
 });
+
+test('un cruce sobre una norma que mezcla asuntos lo avisa', async ({ page }) => {
+  const v = datos.votaciones.find((x: any) => x.mezcla && datos.cruces.some((c: any) => c.votacion_id === x.id && c.nivel === 'veredicto'));
+  const c = datos.cruces.find((x: any) => x.votacion_id === v.id && x.nivel === 'veredicto');
+  await page.goto(`/partido/${slug(c.partido)}/`);
+  await expect(page.locator('#cruces .cruce .mezcla').first()).toContainText('el voto puede deberse', { ignoreCase: true });
+});
