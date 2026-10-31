@@ -24,6 +24,7 @@ const juez = (m: string) => m.split('/').pop();
     {c.partido} votó <strong>{c.voto}</strong>{c.dividido && ' (votó dividido)'}. Resultado: {v.resultado}.
     {v.subtipo === 'devolucion' && ' Ojo: aquí se votaba devolver la ley; votar No es dejar que siga adelante.'}
   </p>
+  {v.mezcla && <p class="mezcla">Ojo: {v.mezcla.motivo}</p>}
   <ul class="enlaces">{enlaces.map(([t, u]) => <li><a href={u} rel="noopener">{t}</a></li>)}</ul>
   <details class="jueces">
     <summary>Qué dijo cada juez</summary>

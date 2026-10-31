@@ -11,6 +11,7 @@ export interface Partido {
 export interface Votacion {
   id: string; fecha: string; tipo: string; subtipo: string; expediente: string; que_se_vota: string;
   resultado: string; url_sesion: string | null; url_bocg: string | null; url_boe: string | null;
+  mezcla?: { motivo: string } | null;
 }
 export interface Promesa {
   id: number; partido: string; anio: number; texto: string; cita: string; pagina: number; tema: string;

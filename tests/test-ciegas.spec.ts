@@ -79,7 +79,7 @@ test('votar todas lleva al destape con voto, partido, cita y página de cada una
 });
 
 test('ver de quién eran a mitad destapa solo las votadas', async ({ page }) => {
-  await empezar(page, ['Vivienda']);
+  await empezar(page, ['Fiscalidad']);
   await votarTodas(page, 2);
   await page.getByRole('button', { name: 'Ver de quién eran' }).click();
   await expect(page.locator('.destape .resultado')).toHaveCount(2);

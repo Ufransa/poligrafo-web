@@ -26,6 +26,7 @@ h1 { font-size: 1.9rem; } h2 { font-size: 1.4rem; margin-top: 2.2rem; border-top
 .promesa { font-weight: 600; margin: .3rem 0; }
 .cita { font-family: var(--serif); font-style: italic; color: var(--gris); margin: .3rem 0; }
 .votacion, .voto, .aviso { font-size: 15px; color: var(--gris); margin: .3rem 0; }
+.mezcla { font-size: 15px; margin: .4rem 0; padding: .4rem .6rem; border-left: 3px solid var(--gris); }
 .enlaces { list-style: none; padding: 0; margin: .4rem 0; display: flex; flex-wrap: wrap; gap: 0 16px; }
 .enlaces a { display: inline-block; min-height: 44px; line-height: 44px; font-size: 15px; }
 details > summary { min-height: 44px; line-height: 44px; cursor: pointer; color: var(--enlace); }
