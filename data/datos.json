@@ -1,7 +1,7 @@
 {
  "meta": {
   "version_contrato": "1.3.0",
-  "generado": "2026-11-11T22:38:49+00:00",
+  "generado": "2026-11-13T02:07:26+00:00",
   "periodo": {
    "desde": "2023-08-17",
    "hasta": "2026-09-30"
@@ -9,7 +9,7 @@
   "recuentos": {
    "votaciones": 2175,
    "promesas": 5639,
-   "veredictos": 189
+   "veredictos": 179
   }
  },
  "partidos": [
@@ -25295,10 +25295,6 @@
      "voto": "Sí",
      "dividido": false
     },
-    "PNV": {
-     "voto": "Abstención",
-     "dividido": false
-    },
     "PP": {
      "voto": "Sí",
      "dividido": false
@@ -30675,10 +30671,6 @@
    "votos": {
     "CC": {
      "voto": "Sí",
-     "dividido": false
-    },
-    "ERC": {
-     "voto": "No",
      "dividido": false
     },
     "Junts": {
@@ -46242,7 +46234,7 @@
    "sesion": 76,
    "numero": 18,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley Orgánica de medidas en materia de eficiencia del Servicio Público de Justicia (antes denominado Proyecto de Ley Orgánica de medidas en materia de eficiencia del Servicio Público de Justicia y de acciones colectivas para la protección y defensa de los derechos e intereses de los consumidores y usuarios).",
    "que_se_vota": "Voto particular número 1 del Grupo Parlamentario Socialista a la enmienda número 228 del Grupo Parlamentario Socialista.",
    "clave_iniciativa": "proyecto de ley orgánica de medidas en materia de eficiencia del servicio público de justicia (antes denominado proyecto de ley orgánica de medidas en materia de eficiencia del servicio público de justicia y de acciones colectivas para la protección y defensa de los derechos e intereses de los consumidores y usuarios)",
@@ -46250,7 +46242,7 @@
    "a_favor": 179,
    "en_contra": 168,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Sí",
@@ -46313,7 +46305,7 @@
    "sesion": 76,
    "numero": 19,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley Orgánica de medidas en materia de eficiencia del Servicio Público de Justicia (antes denominado Proyecto de Ley Orgánica de medidas en materia de eficiencia del Servicio Público de Justicia y de acciones colectivas para la protección y defensa de los derechos e intereses de los consumidores y usuarios).",
    "que_se_vota": "Voto particular número 8 del Grupo Parlamentario Popular en el Congreso a la enmienda número 316 del Grupo Parlamentario Socialista.",
    "clave_iniciativa": "proyecto de ley orgánica de medidas en materia de eficiencia del servicio público de justicia (antes denominado proyecto de ley orgánica de medidas en materia de eficiencia del servicio público de justicia y de acciones colectivas para la protección y defensa de los derechos e intereses de los consumidores y usuarios)",
@@ -46321,7 +46313,7 @@
    "a_favor": 135,
    "en_contra": 180,
    "abstenciones": 32,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -49684,7 +49676,7 @@
    "sesion": 79,
    "numero": 20,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
    "que_se_vota": "Voto particular número 1 del Grupo Parlamentario Socialista a la enmienda número 109 del Grupo Parlamentario Plurinacional SUMAR.",
    "clave_iniciativa": "proyecto de ley por la que se establecen un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado proyecto de ley por la que se establece un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud)",
@@ -49692,7 +49684,7 @@
    "a_favor": 159,
    "en_contra": 148,
    "abstenciones": 41,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Abstención",
@@ -49757,7 +49749,7 @@
    "sesion": 79,
    "numero": 21,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
    "que_se_vota": "Voto particular número 2 del Grupo Parlamentario Socialista a la enmienda número 110 del Grupo Parlamentario Plurinacional SUMAR.",
    "clave_iniciativa": "proyecto de ley por la que se establecen un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado proyecto de ley por la que se establece un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud)",
@@ -49765,7 +49757,7 @@
    "a_favor": 159,
    "en_contra": 175,
    "abstenciones": 14,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Abstención",
@@ -49830,7 +49822,7 @@
    "sesion": 79,
    "numero": 22,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado Proyecto de Ley por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud).",
    "que_se_vota": "Voto particular número 3 del Grupo Parlamentario Socialista a la enmienda número 111 del Grupo Parlamentario Plurinacional SUMAR.",
    "clave_iniciativa": "proyecto de ley por la que se establecen un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias (antes denominado proyecto de ley por la que se establece un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud)",
@@ -49838,7 +49830,7 @@
    "a_favor": 159,
    "en_contra": 189,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -58926,7 +58918,7 @@
    "sesion": 88,
    "numero": 48,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
    "que_se_vota": "Voto particular número 1 presentado por los Grupos Parlamentarios Socialista y Plurinacional SUMAR a la enmienda 273 del Grupo Parlamentario Popular en el Congreso.",
    "clave_iniciativa": "proyecto de ley de prevención de las pérdidas y el desperdicio alimentario",
@@ -58934,7 +58926,7 @@
    "a_favor": 171,
    "en_contra": 177,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Sí",
@@ -58987,7 +58979,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion088/20241219/VOT_20241219162659.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=19/12/2024",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-4-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -58997,7 +58989,7 @@
    "sesion": 88,
    "numero": 49,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
    "que_se_vota": "Voto particular número 2 presentado por los Grupos Parlamentarios Socialista y Plurinacional SUMAR a la enmienda 276 del Grupo Parlamentario Popular en el Congreso.",
    "clave_iniciativa": "proyecto de ley de prevención de las pérdidas y el desperdicio alimentario",
@@ -59005,7 +58997,7 @@
    "a_favor": 164,
    "en_contra": 177,
    "abstenciones": 5,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Abstención",
@@ -59058,7 +59050,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion088/20241219/VOT_20241219162659.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=19/12/2024",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-4-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -59068,7 +59060,7 @@
    "sesion": 88,
    "numero": 50,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
    "que_se_vota": "Voto particular número 3 presentado por los Grupos Parlamentarios Socialista y Plurinacional SUMAR a la enmienda 278 del Grupo Parlamentario Popular en el Congreso.",
    "clave_iniciativa": "proyecto de ley de prevención de las pérdidas y el desperdicio alimentario",
@@ -59076,7 +59068,7 @@
    "a_favor": 172,
    "en_contra": 176,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Sí",
@@ -59129,7 +59121,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion088/20241219/VOT_20241219162659.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=19/12/2024",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-4-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -59139,7 +59131,7 @@
    "sesion": 88,
    "numero": 51,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
    "que_se_vota": "Voto particular número 4 presentado por el Grupo Parlamentario Socialista a la enmienda 98 del Grupo Parlamentario Republicano.",
    "clave_iniciativa": "proyecto de ley de prevención de las pérdidas y el desperdicio alimentario",
@@ -59147,7 +59139,7 @@
    "a_favor": 121,
    "en_contra": 222,
    "abstenciones": 5,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -59200,7 +59192,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion088/20241219/VOT_20241219162659.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=19/12/2024",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-4-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -59210,7 +59202,7 @@
    "sesion": 88,
    "numero": 52,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
    "que_se_vota": "Voto particular número 5 presentado por el Grupo Parlamentario Socialista a la enmienda 272 del Grupo Parlamentario Popular en el Congreso.",
    "clave_iniciativa": "proyecto de ley de prevención de las pérdidas y el desperdicio alimentario",
@@ -59218,7 +59210,7 @@
    "a_favor": 157,
    "en_contra": 176,
    "abstenciones": 14,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Abstención",
@@ -59271,7 +59263,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion088/20241219/VOT_20241219162659.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=19/12/2024",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-4-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -59281,7 +59273,7 @@
    "sesion": 88,
    "numero": 53,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
    "que_se_vota": "Voto particular número 6 presentado por el Grupo Parlamentario Popular en el Congreso a la enmienda transaccional en Comisión número 37.",
    "clave_iniciativa": "proyecto de ley de prevención de las pérdidas y el desperdicio alimentario",
@@ -59289,7 +59281,7 @@
    "a_favor": 170,
    "en_contra": 178,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -59342,7 +59334,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion088/20241219/VOT_20241219162659.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=19/12/2024",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-4-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -66209,7 +66201,7 @@
    "sesion": 95,
    "numero": 1,
    "tipo": "Acuerdos de Comisiones relativos a Informes de Subcomisiones y Ponencias.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Informe de la Subcomisión para la renovación y actualización del Pacto de Estado en materia de violencia de género.",
    "que_se_vota": "Voto particular 10.",
    "clave_iniciativa": "informe de la subcomisión para la renovación y actualización del pacto de estado en materia de violencia de género",
@@ -66217,7 +66209,7 @@
    "a_favor": 51,
    "en_contra": 296,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Sí",
@@ -66351,7 +66343,7 @@
    "sesion": 95,
    "numero": 3,
    "tipo": "Acuerdos de Comisiones relativos a Informes de Subcomisiones y Ponencias.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Informe de la Subcomisión para la renovación y actualización del Pacto de Estado en materia de violencia de género.",
    "que_se_vota": "Voto particular 21.",
    "clave_iniciativa": "informe de la subcomisión para la renovación y actualización del pacto de estado en materia de violencia de género",
@@ -66359,7 +66351,7 @@
    "a_favor": 51,
    "en_contra": 263,
    "abstenciones": 33,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Sí",
@@ -66422,7 +66414,7 @@
    "sesion": 95,
    "numero": 4,
    "tipo": "Acuerdos de Comisiones relativos a Informes de Subcomisiones y Ponencias.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Informe de la Subcomisión para la renovación y actualización del Pacto de Estado en materia de violencia de género.",
    "que_se_vota": "Voto particular 22.",
    "clave_iniciativa": "informe de la subcomisión para la renovación y actualización del pacto de estado en materia de violencia de género",
@@ -66430,7 +66422,7 @@
    "a_favor": 11,
    "en_contra": 305,
    "abstenciones": 31,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Sí",
@@ -66564,7 +66556,7 @@
    "sesion": 95,
    "numero": 6,
    "tipo": "Acuerdos de Comisiones relativos a Informes de Subcomisiones y Ponencias.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Informe de la Subcomisión para la renovación y actualización del Pacto de Estado en materia de violencia de género.",
    "que_se_vota": "Voto particular 1.",
    "clave_iniciativa": "informe de la subcomisión para la renovación y actualización del pacto de estado en materia de violencia de género",
@@ -66572,7 +66564,7 @@
    "a_favor": 34,
    "en_contra": 313,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -82353,7 +82345,7 @@
    "sesion": 121,
    "numero": 1,
    "tipo": "Enmiendas del Senado.",
-   "subtipo": "normal",
+   "subtipo": "parcial",
    "expediente": "Proposición de Ley Orgánica de modificación del artículo 515 de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (antes denominada Proposición de Ley Orgánica por la que se modifica la Ley Orgánica 1/2002, de 22 de marzo, reguladora del derecho de asociación).\nVotación en bloque de las enmiendas.",
    "que_se_vota": "",
    "clave_iniciativa": "proposición de ley orgánica de modificación del artículo 515 de la ley orgánica 10/1995, de 23 de noviembre, del código penal (antes denominada proposición de ley orgánica por la que se modifica la ley orgánica 1/2002, de 22 de marzo, reguladora del derecho de asociación). votación en bloque de las enmiendas",
@@ -82361,7 +82353,7 @@
    "a_favor": 170,
    "en_contra": 176,
    "abstenciones": 0,
-   "excluida_tramite": false,
+   "excluida_tramite": true,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -85426,7 +85418,7 @@
    "sesion": 128,
    "numero": 10,
    "tipo": "Enmiendas del Senado.",
-   "subtipo": "normal",
+   "subtipo": "parcial",
    "expediente": "Proposición de Ley de modificación de la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, para la regulación de las inversiones en elementos patrimoniales afectos a la actividad de arrendamiento de vivienda en las Islas Canarias.\nVotación en bloque de las enmiendas.",
    "que_se_vota": "",
    "clave_iniciativa": "proposición de ley de modificación de la ley 19/1994, de 6 de julio, de modificación del régimen económico y fiscal de canarias, para la regulación de las inversiones en elementos patrimoniales afectos a la actividad de arrendamiento de vivienda en las islas canarias. votación en bloque de las enmiendas",
@@ -85434,7 +85426,7 @@
    "a_favor": 299,
    "en_contra": 31,
    "abstenciones": 19,
-   "excluida_tramite": false,
+   "excluida_tramite": true,
    "votos": {
     "BNG": {
      "voto": "Abstención",
@@ -87451,7 +87443,7 @@
    "sesion": 132,
    "numero": 1,
    "tipo": "Acuerdos de Comisiones relativos a Informes de Subcomisiones y Ponencias.",
-   "subtipo": "normal",
+   "subtipo": "texto_alternativo",
    "expediente": "Votación del voto particular, presentado por el Grupo Parlamentario VOX, al Informe de la Subcomisión para mejorar la protección, la promoción y la atención integral de la salud mental.",
    "que_se_vota": "",
    "clave_iniciativa": "votación del voto particular, presentado por el grupo parlamentario vox, al informe de la subcomisión para mejorar la protección, la promoción y la atención integral de la salud mental",
@@ -96889,7 +96881,7 @@
    "sesion": 136,
    "numero": 86,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proyecto de Ley de Movilidad Sostenible.",
    "que_se_vota": "Voto particular nº 1 presentado por el Grupo Parlamentario Socialista a la enmienda nº 605 del Grupo Parlamentario Popular en el Congreso.",
    "clave_iniciativa": "proyecto de ley de movilidad sostenible",
@@ -96897,7 +96889,7 @@
    "a_favor": 157,
    "en_contra": 178,
    "abstenciones": 12,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "Abstención",
@@ -96954,7 +96946,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion136/20251008/VOT_20251008195215.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=08/10/2025",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-9-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -141418,7 +141410,7 @@
    "sesion": 191,
    "numero": 8,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proposición de Ley Orgánica de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia.",
    "que_se_vota": "Voto particular a la enmienda transaccional nº 1, a la enmienda nº 4 (voto particular nº 8).",
    "clave_iniciativa": "proposición de ley orgánica de transferencia de la titularidad y competencias de la autopista del atlántico (ap-9) a la comunidad autónoma de galicia",
@@ -141426,7 +141418,7 @@
    "a_favor": 138,
    "en_contra": 211,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -141483,7 +141475,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion191/20260625/VOT_20260625150737.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=25/06/2026",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-57-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -141493,7 +141485,7 @@
    "sesion": 191,
    "numero": 9,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proposición de Ley Orgánica de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia.",
    "que_se_vota": "Voto particular a la enmienda transaccional nº 2, a la enmienda nº 5 (voto particular nº 9).",
    "clave_iniciativa": "proposición de ley orgánica de transferencia de la titularidad y competencias de la autopista del atlántico (ap-9) a la comunidad autónoma de galicia",
@@ -141501,7 +141493,7 @@
    "a_favor": 138,
    "en_contra": 208,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -141558,7 +141550,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion191/20260625/VOT_20260625150737.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=25/06/2026",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-57-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -141568,7 +141560,7 @@
    "sesion": 191,
    "numero": 10,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proposición de Ley Orgánica de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia.",
    "que_se_vota": "Voto particular a la enmienda transaccional nº 3, a las enmiendas núms. 6, 7 y 8 (votos particulares núms. 10, 11 y 12).",
    "clave_iniciativa": "proposición de ley orgánica de transferencia de la titularidad y competencias de la autopista del atlántico (ap-9) a la comunidad autónoma de galicia",
@@ -141576,7 +141568,7 @@
    "a_favor": 138,
    "en_contra": 211,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -141633,7 +141625,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion191/20260625/VOT_20260625150737.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=25/06/2026",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-57-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -141643,7 +141635,7 @@
    "sesion": 191,
    "numero": 11,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proposición de Ley Orgánica de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia.",
    "que_se_vota": "Voto particular a la enmienda transaccional nº 4, a la enmienda nº 9 (voto particular nº 13).",
    "clave_iniciativa": "proposición de ley orgánica de transferencia de la titularidad y competencias de la autopista del atlántico (ap-9) a la comunidad autónoma de galicia",
@@ -141651,7 +141643,7 @@
    "a_favor": 138,
    "en_contra": 211,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -141708,7 +141700,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion191/20260625/VOT_20260625150737.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=25/06/2026",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-57-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -141718,7 +141710,7 @@
    "sesion": 191,
    "numero": 12,
    "tipo": "Dictámenes de Comisiones sobre iniciativas legislativas.",
-   "subtipo": "parcial",
+   "subtipo": "texto_alternativo",
    "expediente": "Proposición de Ley Orgánica de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia.",
    "que_se_vota": "Voto particular a la enmienda transaccional nº 5, a las enmiendas núms. 10 y 11 (votos particulares núms. 14 y 15).",
    "clave_iniciativa": "proposición de ley orgánica de transferencia de la titularidad y competencias de la autopista del atlántico (ap-9) a la comunidad autónoma de galicia",
@@ -141726,7 +141718,7 @@
    "a_favor": 138,
    "en_contra": 211,
    "abstenciones": 0,
-   "excluida_tramite": true,
+   "excluida_tramite": false,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -141783,7 +141775,7 @@
    },
    "url_xml": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion191/20260625/VOT_20260625150737.zip",
    "url_sesion": "https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=25/06/2026",
-   "url_bocg": null,
+   "url_bocg": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-57-1.PDF",
    "url_boe": null,
    "mezcla": null
   },
@@ -147635,7 +147627,7 @@
    "sesion": 193,
    "numero": 5,
    "tipo": "Enmiendas del Senado.",
-   "subtipo": "normal",
+   "subtipo": "parcial",
    "expediente": "Proposición de Ley Orgánica de transferencia de la titularidad y competencias de la autopista del Atlántico (AP-9) a la Comunidad Autónoma de Galicia.\nVotación en bloque de las enmiendas.",
    "que_se_vota": "",
    "clave_iniciativa": "proposición de ley orgánica de transferencia de la titularidad y competencias de la autopista del atlántico (ap-9) a la comunidad autónoma de galicia. votación en bloque de las enmiendas",
@@ -147643,7 +147635,7 @@
    "a_favor": 138,
    "en_contra": 210,
    "abstenciones": 0,
-   "excluida_tramite": false,
+   "excluida_tramite": true,
    "votos": {
     "BNG": {
      "voto": "No",
@@ -214464,31 +214456,6 @@
    }
   },
   {
-   "votacion_id": "101-5",
-   "promesa_id": 3292,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "102-1",
    "promesa_id": 1553,
    "partido": "PSOE",
@@ -214560,94 +214527,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "102-2",
-   "promesa_id": 3841,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "102-2",
-   "promesa_id": 3885,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "102-2",
-   "promesa_id": 1117,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "102-2",
-   "promesa_id": 3174,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -215330,100 +215209,6 @@
   },
   {
    "votacion_id": "109-8",
-   "promesa_id": 738,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "109-8",
-   "promesa_id": 856,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "109-8",
-   "promesa_id": 2493,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "109-8",
-   "promesa_id": 5576,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "109-8",
    "promesa_id": 2050,
    "partido": "Vox",
    "voto": "No",
@@ -215441,28 +215226,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "en_contra",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "11-2",
-   "promesa_id": 5134,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -215730,94 +215493,6 @@
    }
   },
   {
-   "votacion_id": "111-5",
-   "promesa_id": 4151,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "111-5",
-   "promesa_id": 5683,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "111-5",
-   "promesa_id": 5117,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "111-5",
-   "promesa_id": 2850,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "111-6",
    "promesa_id": 384,
    "partido": "PP",
@@ -215880,28 +215555,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "111-6",
-   "promesa_id": 2512,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -216205,50 +215858,6 @@
   },
   {
    "votacion_id": "115-3",
-   "promesa_id": 5458,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-3",
-   "promesa_id": 5461,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-3",
    "promesa_id": 4665,
    "partido": "Junts",
    "voto": "No",
@@ -216287,182 +215896,6 @@
     },
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-3",
-   "promesa_id": 752,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 5512,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 3827,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 4700,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 5667,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 1449,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 2953,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "115-4",
-   "promesa_id": 1814,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
      "fuerza": "directa"
     }
    }
@@ -216677,28 +216110,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "118-1",
-   "promesa_id": 1297,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -217231,28 +216642,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "121-4",
-   "promesa_id": 87,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -217946,50 +217335,6 @@
    }
   },
   {
-   "votacion_id": "129-1",
-   "promesa_id": 908,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "129-1",
-   "promesa_id": 1340,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "129-2",
    "promesa_id": 4571,
    "partido": "Junts",
@@ -218657,72 +218002,6 @@
    }
   },
   {
-   "votacion_id": "13-6",
-   "promesa_id": 4977,
-   "partido": "EH Bildu",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "13-6",
-   "promesa_id": 1313,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "13-6",
-   "promesa_id": 2560,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "130-10",
    "promesa_id": 1508,
    "partido": "PSOE",
@@ -218847,10 +218126,10 @@
    "partido": "PP",
    "voto": "No",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "incumple",
-   "revisado_a_mano": true,
-   "pendiente_revision": false,
+   "revisado_a_mano": false,
+   "pendiente_revision": true,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -218940,28 +218219,6 @@
   },
   {
    "votacion_id": "130-7",
-   "promesa_id": 5417,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "130-7",
    "promesa_id": 3647,
    "partido": "ERC",
    "voto": "No",
@@ -218979,50 +218236,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "130-7",
-   "promesa_id": 590,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "130-8",
-   "promesa_id": 3647,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -219363,424 +218576,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "131-2",
-   "promesa_id": 1937,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 4983,
-   "partido": "EH Bildu",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 3896,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 194,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 195,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 1081,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 1242,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 2873,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 2874,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 2910,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 2948,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 2949,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 2951,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 3398,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-1",
-   "promesa_id": 1847,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-15",
-   "promesa_id": 5330,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-15",
-   "promesa_id": 5612,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-15",
-   "promesa_id": 4780,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "132-15",
-   "promesa_id": 380,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -220140,31 +218935,6 @@
    }
   },
   {
-   "votacion_id": "132-26",
-   "promesa_id": 1847,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "132-3",
    "promesa_id": 2328,
    "partido": "Sumar",
@@ -220420,28 +219190,6 @@
   },
   {
    "votacion_id": "134-8",
-   "promesa_id": 5667,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-8",
    "promesa_id": 455,
    "partido": "PSOE",
    "voto": "No",
@@ -220467,28 +219215,6 @@
   },
   {
    "votacion_id": "134-8",
-   "promesa_id": 1071,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-8",
    "promesa_id": 1076,
    "partido": "PSOE",
    "voto": "No",
@@ -220506,28 +219232,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-8",
-   "promesa_id": 1466,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -220608,160 +219312,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-8",
-   "promesa_id": 1814,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-9",
-   "promesa_id": 1117,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-9",
-   "promesa_id": 1118,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-9",
-   "promesa_id": 1177,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-9",
-   "promesa_id": 1185,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-9",
-   "promesa_id": 1198,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "134-9",
-   "promesa_id": 2991,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -221343,78 +219893,6 @@
    }
   },
   {
-   "votacion_id": "136-98",
-   "promesa_id": 749,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "136-98",
-   "promesa_id": 2406,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "136-98",
-   "promesa_id": 2803,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "136-99",
    "promesa_id": 4281,
    "partido": "ERC",
@@ -221674,28 +220152,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "137-2",
-   "promesa_id": 3417,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -221994,7 +220450,7 @@
    "partido": "PP",
    "voto": "Sí",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
@@ -222176,53 +220632,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "144-2",
-   "promesa_id": 1813,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "146-57",
-   "promesa_id": 4850,
-   "partido": "Junts",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "veredicto",
-   "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "directa"
     }
    }
   },
@@ -222563,94 +220972,6 @@
    }
   },
   {
-   "votacion_id": "147-2",
-   "promesa_id": 1490,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "147-2",
-   "promesa_id": 1497,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "147-2",
-   "promesa_id": 2841,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "147-2",
-   "promesa_id": 3103,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "148-2",
    "promesa_id": 386,
    "partido": "PP",
@@ -222771,94 +221092,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "148-4",
-   "promesa_id": 272,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "148-4",
-   "promesa_id": 1177,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "148-4",
-   "promesa_id": 1188,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "148-4",
-   "promesa_id": 1642,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -223164,53 +221397,6 @@
    "pendiente_revision": false,
    "jueces": {
     "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "15-5",
-   "promesa_id": 3080,
-   "partido": "Sumar",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": null,
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "15-5",
-   "promesa_id": 1885,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
     "openai/gpt-5-mini": {
      "postura": "a_favor",
      "fuerza": "indirecta"
@@ -223784,94 +221970,6 @@
    }
   },
   {
-   "votacion_id": "152-2",
-   "promesa_id": 687,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "152-2",
-   "promesa_id": 715,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "152-2",
-   "promesa_id": 2597,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "152-2",
-   "promesa_id": 2713,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "152-3",
    "promesa_id": 5499,
    "partido": "BNG",
@@ -224059,28 +222157,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "154-1",
-   "promesa_id": 2685,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -224521,28 +222597,6 @@
    }
   },
   {
-   "votacion_id": "159-4",
-   "promesa_id": 2822,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "159-5",
    "promesa_id": 3653,
    "partido": "ERC",
@@ -224659,28 +222713,6 @@
    }
   },
   {
-   "votacion_id": "159-7",
-   "promesa_id": 1520,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "159-8",
    "promesa_id": 3701,
    "partido": "ERC",
@@ -224699,28 +222731,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "159-8",
-   "promesa_id": 3157,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -225033,28 +223043,6 @@
   },
   {
    "votacion_id": "161-4",
-   "promesa_id": 1532,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "161-4",
    "promesa_id": 2122,
    "partido": "Vox",
    "voto": "Sí",
@@ -225228,50 +223216,6 @@
      "postura": "a_favor",
      "fuerza": "directa"
     },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "164-19",
-   "promesa_id": 3660,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "164-19",
-   "promesa_id": 4780,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
     "openai/gpt-5-mini": {
      "postura": "a_favor",
      "fuerza": "indirecta"
@@ -225817,28 +223761,6 @@
   },
   {
    "votacion_id": "166-3",
-   "promesa_id": 5330,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "166-3",
    "promesa_id": 3660,
    "partido": "ERC",
    "voto": "No",
@@ -225867,50 +223789,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "166-3",
-   "promesa_id": 2334,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "166-3",
-   "promesa_id": 3010,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -226266,298 +224144,12 @@
   },
   {
    "votacion_id": "169-51",
-   "promesa_id": 3910,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-51",
-   "promesa_id": 4315,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-51",
-   "promesa_id": 444,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-51",
-   "promesa_id": 2860,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-51",
    "promesa_id": 1844,
    "partido": "Vox",
    "voto": "Sí",
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 5003,
-   "partido": "EH Bildu",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 3930,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 4160,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 5118,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 5163,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 384,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 437,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 735,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "169-52",
-   "promesa_id": 2850,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -227358,28 +224950,6 @@
   },
   {
    "votacion_id": "173-1",
-   "promesa_id": 4957,
-   "partido": "EH Bildu",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "173-1",
    "promesa_id": 123,
    "partido": "PP",
    "voto": "Sí",
@@ -227400,56 +224970,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "173-1",
-   "promesa_id": 1462,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "173-1",
-   "promesa_id": 2719,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -227565,50 +225085,6 @@
   },
   {
    "votacion_id": "175-1",
-   "promesa_id": 4384,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "175-1",
-   "promesa_id": 4397,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "175-1",
    "promesa_id": 1480,
    "partido": "PSOE",
    "voto": "Sí",
@@ -227637,94 +225113,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "175-2",
-   "promesa_id": 523,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "175-2",
-   "promesa_id": 1319,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "175-2",
-   "promesa_id": 2913,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "175-2",
-   "promesa_id": 3050,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -227943,50 +225331,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "en_contra",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "177-1",
-   "promesa_id": 3906,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "177-1",
-   "promesa_id": 4314,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -228256,28 +225600,6 @@
   },
   {
    "votacion_id": "177-3",
-   "promesa_id": 5456,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "177-3",
    "promesa_id": 3980,
    "partido": "ERC",
    "voto": "No",
@@ -228291,28 +225613,6 @@
     "openai/gpt-5-mini": {
      "postura": "a_favor",
      "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "177-3",
-   "promesa_id": 4384,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     },
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
@@ -229290,94 +226590,6 @@
    }
   },
   {
-   "votacion_id": "185-37",
-   "promesa_id": 924,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "185-37",
-   "promesa_id": 1340,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "185-37",
-   "promesa_id": 2991,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "185-37",
-   "promesa_id": 3392,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "185-40",
    "promesa_id": 3700,
    "partido": "ERC",
@@ -229433,7 +226645,7 @@
    "partido": "ERC",
    "voto": "Sí",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
@@ -229520,28 +226732,6 @@
   },
   {
    "votacion_id": "188-1",
-   "promesa_id": 5525,
-   "partido": "BNG",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-1",
    "promesa_id": 3856,
    "partido": "ERC",
    "voto": "Sí",
@@ -229609,138 +226799,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-12",
-   "promesa_id": 5667,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-12",
-   "promesa_id": 5680,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-12",
-   "promesa_id": 5211,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-12",
-   "promesa_id": 1071,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-12",
-   "promesa_id": 1466,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-12",
-   "promesa_id": 2953,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -229984,28 +227042,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "188-27",
-   "promesa_id": 2105,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -230324,72 +227360,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "19-6",
-   "promesa_id": 444,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "19-6",
-   "promesa_id": 2852,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "19-6",
-   "promesa_id": 2865,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -230743,28 +227713,6 @@
   },
   {
    "votacion_id": "191-16",
-   "promesa_id": 88,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "191-16",
    "promesa_id": 696,
    "partido": "PSOE",
    "voto": "Sí",
@@ -230793,28 +227741,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "191-17",
-   "promesa_id": 5175,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -231031,28 +227957,6 @@
    }
   },
   {
-   "votacion_id": "192-50",
-   "promesa_id": 1885,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "192-52",
    "promesa_id": 2921,
    "partido": "Sumar",
@@ -231194,53 +228098,6 @@
    }
   },
   {
-   "votacion_id": "193-11",
-   "promesa_id": 317,
-   "partido": "PP",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "193-19",
-   "promesa_id": 324,
-   "partido": "PP",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "193-20",
    "promesa_id": 3946,
    "partido": "ERC",
@@ -231280,97 +228137,6 @@
     },
     "google/gemini-2.5-flash-lite": {
      "postura": "en_contra",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "193-20",
-   "promesa_id": 1885,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "193-5",
-   "promesa_id": 5457,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": null,
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "193-5",
-   "promesa_id": 5465,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "193-5",
-   "promesa_id": 5652,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": null,
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
      "fuerza": "indirecta"
     }
    }
@@ -232416,7 +229182,7 @@
    "partido": "PSOE",
    "voto": "Sí",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
@@ -232668,28 +229434,6 @@
    }
   },
   {
-   "votacion_id": "200-4",
-   "promesa_id": 1340,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "201-1",
    "promesa_id": 301,
    "partido": "PP",
@@ -232697,50 +229441,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "201-1",
-   "promesa_id": 3186,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "202-1",
-   "promesa_id": 5537,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -232808,10 +229508,10 @@
    "partido": "PSOE",
    "voto": "No",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "incumple",
-   "revisado_a_mano": true,
-   "pendiente_revision": false,
+   "revisado_a_mano": false,
+   "pendiente_revision": true,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -232824,28 +229524,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "202-1",
-   "promesa_id": 2914,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -233091,28 +229769,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "202-6",
-   "promesa_id": 5607,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -233526,10 +230182,10 @@
    "partido": "PP",
    "voto": "No",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "incumple",
-   "revisado_a_mano": true,
-   "pendiente_revision": false,
+   "revisado_a_mano": false,
+   "pendiente_revision": true,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -233809,78 +230465,6 @@
    }
   },
   {
-   "votacion_id": "26-16",
-   "promesa_id": 3080,
-   "partido": "Sumar",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "26-16",
-   "promesa_id": 3307,
-   "partido": "Sumar",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": null,
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "26-16",
-   "promesa_id": 1885,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "26-17",
    "promesa_id": 4823,
    "partido": "Junts",
@@ -234018,94 +230602,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "29-31",
-   "promesa_id": 5461,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "29-31",
-   "promesa_id": 4987,
-   "partido": "EH Bildu",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "29-31",
-   "promesa_id": 4188,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "29-31",
-   "promesa_id": 5646,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -235141,50 +231637,6 @@
   },
   {
    "votacion_id": "34-12",
-   "promesa_id": 551,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "34-12",
-   "promesa_id": 583,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "34-12",
    "promesa_id": 1894,
    "partido": "Vox",
    "voto": "Sí",
@@ -235213,28 +231665,6 @@
    "dividido": false,
    "nivel": "juzga_tu",
    "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "34-13",
-   "promesa_id": 3890,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
    "jueces": {
@@ -237042,50 +233472,6 @@
    }
   },
   {
-   "votacion_id": "50-1",
-   "promesa_id": 1210,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "50-1",
-   "promesa_id": 1212,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "50-2",
    "promesa_id": 4338,
    "partido": "Junts",
@@ -237202,50 +233588,6 @@
    }
   },
   {
-   "votacion_id": "52-23",
-   "promesa_id": 1232,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "52-23",
-   "promesa_id": 2866,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "52-45",
    "promesa_id": 5464,
    "partido": "BNG",
@@ -237264,28 +233606,6 @@
      "postura": "a_favor",
      "fuerza": "directa"
     },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "53-1",
-   "promesa_id": 3691,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "openai/gpt-5-mini": null,
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
@@ -237320,7 +233640,7 @@
    "partido": "PP",
    "voto": "Sí",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "cumple",
    "revisado_a_mano": false,
    "pendiente_revision": false,
@@ -237741,53 +234061,6 @@
    }
   },
   {
-   "votacion_id": "56-77",
-   "promesa_id": 1885,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "57-1",
-   "promesa_id": 335,
-   "partido": "PP",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "veredicto",
-   "veredicto": "cumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
    "votacion_id": "58-10",
    "promesa_id": 1145,
    "partido": "PSOE",
@@ -238184,106 +234457,6 @@
   },
   {
    "votacion_id": "60-5",
-   "promesa_id": 4700,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
-   "promesa_id": 5211,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
-   "promesa_id": 453,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
-   "promesa_id": 1071,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
    "promesa_id": 1449,
    "partido": "PSOE",
    "voto": "No",
@@ -238309,81 +234482,6 @@
   },
   {
    "votacion_id": "60-5",
-   "promesa_id": 1466,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
-   "promesa_id": 2764,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
-   "promesa_id": 2953,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-5",
    "promesa_id": 1807,
    "partido": "Vox",
    "voto": "Sí",
@@ -238402,53 +234500,6 @@
      "fuerza": "indirecta"
     },
     "google/gemini-2.5-flash-lite": null
-   }
-  },
-  {
-   "votacion_id": "60-5",
-   "promesa_id": 1814,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-6",
-   "promesa_id": 5462,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
    }
   },
   {
@@ -238544,28 +234595,6 @@
   },
   {
    "votacion_id": "60-7",
-   "promesa_id": 3783,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-7",
    "promesa_id": 380,
    "partido": "PP",
    "voto": "Sí",
@@ -238583,28 +234612,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "60-7",
-   "promesa_id": 1996,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -238705,28 +234712,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "63-3",
-   "promesa_id": 1673,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -239450,28 +235435,6 @@
    }
   },
   {
-   "votacion_id": "68-14",
-   "promesa_id": 2804,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "68-5",
    "promesa_id": 3838,
    "partido": "ERC",
@@ -239983,28 +235946,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "76-42",
-   "promesa_id": 5182,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -240677,50 +236618,6 @@
    }
   },
   {
-   "votacion_id": "85-6",
-   "promesa_id": 1987,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "85-6",
-   "promesa_id": 1990,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
    "votacion_id": "86-1",
    "promesa_id": 4957,
    "partido": "EH Bildu",
@@ -241337,10 +237234,10 @@
    "partido": "Junts",
    "voto": "No",
    "dividido": false,
-   "nivel": "veredicto",
+   "nivel": "juzga_tu",
    "veredicto": "incumple",
-   "revisado_a_mano": true,
-   "pendiente_revision": false,
+   "revisado_a_mano": false,
+   "pendiente_revision": true,
    "jueces": {
     "deepseek/deepseek-v4-pro": {
      "postura": "a_favor",
@@ -241354,28 +237251,6 @@
      "postura": "a_favor",
      "fuerza": "directa"
     }
-   }
-  },
-  {
-   "votacion_id": "89-3",
-   "promesa_id": 4731,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": null
    }
   },
   {
@@ -241488,53 +237363,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "91-1",
-   "promesa_id": 148,
-   "partido": "PP",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "a_favor",
-     "fuerza": "directa"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "91-1",
-   "promesa_id": 731,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -241816,28 +237644,6 @@
   },
   {
    "votacion_id": "91-4",
-   "promesa_id": 5512,
-   "partido": "BNG",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "91-4",
    "promesa_id": 884,
    "partido": "PSOE",
    "voto": "No",
@@ -241851,28 +237657,6 @@
     "openai/gpt-5-mini": {
      "postura": "a_favor",
      "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "91-4",
-   "promesa_id": 3099,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     },
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
@@ -241979,182 +237763,6 @@
   },
   {
    "votacion_id": "93-10",
-   "promesa_id": 5622,
-   "partido": "ERC",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 4700,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 5667,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 5680,
-   "partido": "Junts",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 1071,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 1449,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 1466,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 2953,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
    "promesa_id": 1807,
    "partido": "Vox",
    "voto": "Sí",
@@ -242172,28 +237780,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "93-10",
-   "promesa_id": 1814,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "directa"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
-     "fuerza": "directa"
     }
    }
   },
@@ -242622,28 +238208,6 @@
   },
   {
    "votacion_id": "95-7",
-   "promesa_id": 5152,
-   "partido": "PNV",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "95-7",
    "promesa_id": 1990,
    "partido": "Vox",
    "voto": "No",
@@ -242712,28 +238276,6 @@
    }
   },
   {
-   "votacion_id": "96-2",
-   "promesa_id": 2585,
-   "partido": "Sumar",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
    "votacion_id": "98-1",
    "promesa_id": 523,
    "partido": "PSOE",
@@ -242796,28 +238338,6 @@
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
      "fuerza": "directa"
-    }
-   }
-  },
-  {
-   "votacion_id": "98-1",
-   "promesa_id": 2142,
-   "partido": "Vox",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
     }
    }
   },
@@ -243033,28 +238553,6 @@
   },
   {
    "votacion_id": "98-8",
-   "promesa_id": 1135,
-   "partido": "PSOE",
-   "voto": "No",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": null,
-    "openai/gpt-5-mini": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "98-8",
    "promesa_id": 2198,
    "partido": "Sumar",
    "voto": "Sí",
@@ -243209,31 +238707,6 @@
     },
     "google/gemini-2.5-flash-lite": {
      "postura": "a_favor",
-     "fuerza": "indirecta"
-    }
-   }
-  },
-  {
-   "votacion_id": "98-9",
-   "promesa_id": 2044,
-   "partido": "Vox",
-   "voto": "Sí",
-   "dividido": false,
-   "nivel": "juzga_tu",
-   "veredicto": "incumple",
-   "revisado_a_mano": false,
-   "pendiente_revision": false,
-   "jueces": {
-    "deepseek/deepseek-v4-pro": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "openai/gpt-5-mini": {
-     "postura": "en_contra",
-     "fuerza": "indirecta"
-    },
-    "google/gemini-2.5-flash-lite": {
-     "postura": "en_contra",
      "fuerza": "indirecta"
     }
    }
