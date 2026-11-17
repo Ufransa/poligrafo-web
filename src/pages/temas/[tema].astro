@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import { listaTemas, slugTema, slug, partidosAlfabeticos, propuestas2026 } from '../../lib/datos';
+export function getStaticPaths() {
+  return listaTemas().map((tema) => ({ params: { tema: slugTema(tema) }, props: { tema } }));
+}
+const { tema } = Astro.props;
+const partidos = partidosAlfabeticos().map((p) => ({ p, propuestas: propuestas2026(tema, p.id) }));
+const con = partidos.filter((x) => x.propuestas.length > 0);
+const sin = partidos.filter((x) => x.propuestas.length === 0);
+---
+<Base titulo={`${tema} · propuestas de 2026`}>
+  <h1>{tema} · qué propone cada partido en 2026</h1>
+  <p class="aviso">Resumen automático de cada propuesta; la cita es literal y está comprobada contra el programa oficial. Partidos en orden alfabético.</p>
+  <p class="aviso"><a href="/temas/">Todos los temas</a></p>
+
+  {con.map(({ p, propuestas }) => (
+    <details id={slug(p.id)} class="partido-tema">
+      <summary>{p.nombre} · {propuestas.length} {propuestas.length === 1 ? 'propuesta' : 'propuestas'}</summary>
+      {propuestas.map((pr) => (
+        <div class="propuesta">
+          <p class="resumen">{pr.texto}</p>
+          <p class="cita">«{pr.cita}»</p>
+          <p class="enlaces"><a href={pr.url_programa_pagina} rel="noopener">pág. {pr.pagina}</a></p>
+        </div>
+      ))}
+    </details>
+  ))}
+
+  {sin.length > 0 && (
+    <ul class="sin-propuestas">
+      {sin.map(({ p }) => (
+        <li id={slug(p.id)}><strong>{p.nombre}:</strong>{' '}
+          {p.programa_2026
+            ? 'Sin propuestas sobre este tema.'
+            : <>{p.sin_programa_2026 ?? 'Sin programa de 2026 cargado.'}{p.url_sin_programa_2026 && <> <a href={p.url_sin_programa_2026} rel="noopener">Ver su web</a></>}</>}
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>

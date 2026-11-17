@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import { datos, listaTemas, slugTema } from '../../lib/datos';
+const total = (tema: string) => datos.promesas.filter((p) => p.anio === 2026 && p.tema === tema).length;
+---
+<Base titulo="Propuestas por tema">
+  <h1>Qué propone cada partido en 2026</h1>
+  <p class="aviso">Elige un tema y compara las propuestas de los programas electorales de 2026, partido a partido, con la cita literal y la página del programa oficial.</p>
+  <ul class="lista-temas">
+    {listaTemas().map((t) => (
+      <li><a href={`/temas/${slugTema(t)}/`}>{t}</a> <span class="aviso">· {total(t).toLocaleString('es-ES')} propuestas</span></li>
+    ))}
+  </ul>
+</Base>

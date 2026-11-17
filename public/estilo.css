@@ -46,3 +46,11 @@ details > summary { min-height: 44px; line-height: 44px; cursor: pointer; color:
 .resultado { border-top: 1px solid var(--linea); padding: 14px 0; }
 .tu-voto, .partido { font-weight: 600; margin: .3rem 0; }
 .cruce-2023 { font-size: 15px; border-left: 4px solid var(--cumple); padding-left: 10px; }
+.lista-temas { list-style: none; padding: 0; }
+.lista-temas li { border-top: 1px solid var(--linea); padding: 10px 0; }
+.lista-temas a { display: inline-block; min-height: 44px; line-height: 44px; font-weight: 600; }
+.partido-tema { border-top: 1px solid var(--linea); }
+.propuesta { border-left: 3px solid var(--linea); padding-left: 10px; margin: 12px 0; }
+.propuesta .resumen { margin: .2rem 0; }
+.sin-propuestas { padding-left: 1.1rem; color: var(--gris); font-size: 15px; }
+.sin-propuestas li { margin: .4rem 0; }
