@@ -9,6 +9,7 @@ const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
   <p class="aviso">¿Prefieres juzgar las propuestas sin saber de quién son? Prueba el <a href="/test/">Test a ciegas</a>.</p>
   {partidosOrdenados().map((p) => {
     const temas = temasDe(p.id).slice(0, 3);
+    const temas2026 = p.programa_2026 ? temasDe(p.id, '2026').slice(0, 3) : [];
     return (
       <section class="ficha-partido">
         <h2>{p.nombre}</h2>
@@ -16,6 +17,7 @@ const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
         {p.programa_2023 && temas.length > 0
           ? <p>Dedica más espacio a: {temas.map(([t, n]) => `${t} (${pct(n)})`).join(', ')}.</p>
           : <p class="aviso">{p.sin_programa}</p>}
+        {temas2026.length > 0 && <p>Dedica más espacio en 2026 a: {temas2026.map(([t, n]) => `${t} (${pct(n)})`).join(', ')}.</p>}
         <a class="abrir" href={`/partido/${slug(p.id)}/`}>Ver ficha de {p.nombre}</a>
       </section>
     );

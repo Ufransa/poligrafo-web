@@ -4,6 +4,7 @@ import { datos, fecha } from '../lib/datos';
 import { FIRMA, REPO_MOTOR, REPO_WEB } from '../lib/config';
 const m = datos.meta;
 const programas = datos.partidos.filter((p) => p.programa_2023);
+const programas2026 = datos.partidos.filter((p) => p.programa_2026);
 const firmes = datos.cruces.filter((c) => c.nivel === 'veredicto').length;
 const juzga = datos.cruces.filter((c) => c.nivel === 'juzga_tu').length;
 ---
@@ -22,6 +23,9 @@ const juzga = datos.cruces.filter((c) => c.nivel === 'juzga_tu').length;
     <li><a href="https://www.boe.es/datosabiertos/" rel="noopener">BOE</a>: las leyes y decretos que se llegaron a publicar.</li>
     <li>Los programas electorales de 2023 de cada partido:
       {programas.map((p, i) => <>{i > 0 && ', '}<a href={p.programa_2023!} rel="noopener">{p.nombre}</a></>)}.</li>
+    <li>Los programas electorales de 2026 de cada partido:
+      {programas2026.map((p, i) => <>{i > 0 && ', '}<a href={p.programa_2026!} rel="noopener">{p.nombre}</a></>)}.
+      En «Propuestas por tema» salen todas sus propuestas, sin elegir ninguna: un resumen automático de cada una, la cita literal (comprobada contra el programa oficial) y la página. Los partidos van en orden alfabético.</li>
     <li><a href="https://www.juntaelectoralcentral.es/cs/jec/documentos/GENERALES_2023_TCuentas_Resoluci%C3%B3n.pdf" rel="noopener">Informe del Tribunal de Cuentas</a> sobre la contabilidad de la campaña de 2023.</li>
   </ul>
 

@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Cruce from '../../components/Cruce.astro';
-import { datos, slug, crucesDe, porTema, temasDe, votacion, promesa, fecha, euros } from '../../lib/datos';
+import { datos, slug, slugTema, crucesDe, porTema, temasDe, votacion, promesa, fecha, euros } from '../../lib/datos';
 export function getStaticPaths() {
   return datos.partidos.map((p) => ({ params: { id: slug(p.id) }, props: { p } }));
 }
@@ -22,10 +22,20 @@ const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
   {temas.length > 0 && (
     <section id="temas">
       <h2>A qué dedica su programa</h2>
-      <p class="aviso">Porcentaje de sus promesas de 2023 sobre cada tema.{temas2026.length === 0 && ' El programa de 2026 aún no está cargado.'}</p>
+      <p class="aviso">Porcentaje de sus promesas de 2023 sobre cada tema.</p>
       {temas.map(([t, n]) => <div class="barra"><span>{t}</span><span>{pct(n)}</span><i style={`width:${n}%`}></i></div>)}
     </section>
   )}
+
+  <section id="temas-2026">
+    <h2>A qué dedica su programa de 2026</h2>
+    {p.programa_2026 && temas2026.length > 0
+      ? <>
+          <p class="aviso">Porcentaje de sus propuestas de 2026 sobre cada tema. Cada tema lleva a sus propuestas, junto a las de los demás partidos. <a href={p.programa_2026} rel="noopener">Programa de 2026</a></p>
+          {temas2026.map(([t, n]) => <div class="barra"><a href={`/temas/${slugTema(t)}/#${slug(p.id)}`}>{t}</a><span>{pct(n)}</span><i style={`width:${n}%`}></i></div>)}
+        </>
+      : <p class="aviso">{p.sin_programa_2026 ?? 'Sin programa de 2026 cargado.'}{p.url_sin_programa_2026 && <> <a href={p.url_sin_programa_2026} rel="noopener">Ver su web</a></>}</p>}
+  </section>
 
   {firmes.length > 0 && (
     <section id="cruces">

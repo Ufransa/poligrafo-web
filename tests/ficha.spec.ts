@@ -92,3 +92,22 @@ test('un cruce sobre una norma que mezcla asuntos lo avisa', async ({ page }) =>
   await page.goto(`/partido/${slug(c.partido)}/`);
   await expect(page.locator('#cruces .cruce .mezcla').first()).toContainText('el voto puede deberse', { ignoreCase: true });
 });
+
+test('los temas de 2026 enlazan a su página de tema', async ({ page }) => {
+  const fa = datos.partidos.find((p: any) => p.id === 'Frente Amplio');
+  await page.goto('/partido/frente-amplio/');
+  const sec = page.locator('#temas-2026');
+  await expect(sec.locator('a', { hasText: 'Programa de 2026' })).toHaveAttribute('href', fa.programa_2026);
+  const enlaces = sec.locator('a[href^="/temas/"]');
+  expect(await enlaces.count()).toBeGreaterThan(0);
+  for (const a of await enlaces.all()) expect(await a.getAttribute('href')).toMatch(/^\/temas\/[a-z0-9-]+\/#frente-amplio$/);
+  const primero = (await enlaces.first().getAttribute('href'))!;
+  await page.goto(primero);
+  await expect(page.locator('details#frente-amplio')).toHaveCount(1);
+});
+
+test('sin programa de 2026, la ficha dice el motivo', async ({ page }) => {
+  await page.goto('/partido/junts/');
+  await expect(page.locator('main')).toContainText('Aún no ha publicado su programa de 2026.');
+  await expect(page.locator('main')).not.toContainText('aún no está cargado');
+});

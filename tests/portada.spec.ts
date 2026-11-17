@@ -29,3 +29,9 @@ test('cada partido enseña sus temas o por qué no tiene programa, y lleva a su 
     await page.goBack();
   }
 });
+
+test('un partido sin 2023 pero con 2026 enseña sus temas de 2026', async ({ page }) => {
+  await page.goto('/');
+  const salf = page.locator('.ficha-partido', { has: page.locator('h2', { hasText: 'Se Acabó La Fiesta' }) });
+  await expect(salf).toContainText('Dedica más espacio en 2026 a:');
+});
