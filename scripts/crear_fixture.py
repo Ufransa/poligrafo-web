@@ -29,7 +29,22 @@ if not any(v.get("mezcla") for v in d["votaciones"] if v["id"] in firme_vids):
     v = next(v for v in d["votaciones"] if v["id"] in firme_vids)
     v["mezcla"] = {"motivo": "Esta norma también toca asuntos que no anuncia su título: el IRPF. "
                              "El voto puede deberse a esa otra parte."}
-d["promesas"] = [p for p in d["promesas"] if p["id"] in pids]
+# Propuestas de 2026: hasta 2 por partido y tema. SALF se queda sin ninguna en Pensiones (caso «sin propuestas
+# sobre este tema») y se añade una sintética con <, & y comillas para probar el escapado.
+de2026, cuenta = [], {}
+for p in sorted((p for p in d["promesas"] if p["anio"] == 2026), key=lambda p: p["id"]):
+    clave = (p["partido"], p["tema"])
+    if clave == ("SALF", "Pensiones") or cuenta.get(clave, 0) >= 2:
+        continue
+    de2026.append(p)
+    cuenta[clave] = cuenta.get(clave, 0) + 1
+if de2026:
+    base = next(p for p in de2026 if p["partido"] == "PSOE")
+    de2026.append({**base, "id": -2, "tema": "Vivienda", "pagina": 1,
+                   "texto": "Propuesta de prueba con <i>etiquetas</i>, «comillas» & símbolos.",
+                   "cita": "Cita de prueba con <i>etiquetas</i> & «comillas».",
+                   "url_programa_pagina": base["url_programa_pagina"].split("#")[0] + "#page=1"})
+d["promesas"] = [p for p in d["promesas"] if p["id"] in pids] + de2026
 test, vistos = [], {}
 for t in d.get("test", []):
     clave = (t["partido"], t["tema"])

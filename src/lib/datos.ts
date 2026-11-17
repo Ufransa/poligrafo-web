@@ -7,6 +7,7 @@ export type Juez = { postura: 'a_favor' | 'en_contra'; fuerza: 'directa' | 'indi
 export interface Partido {
   id: string; nombre: string; escanos_23j: number; gobierno: [string, string | null][];
   programa_2023: string | null; sin_programa?: string; nota_gobierno?: string;
+  programa_2026?: string | null; sin_programa_2026?: string; url_sin_programa_2026?: string;
 }
 export interface Votacion {
   id: string; fecha: string; tipo: string; subtipo: string; expediente: string; que_se_vota: string;
@@ -36,7 +37,7 @@ export interface PropuestaTest {
                 url_sesion: string | null } | null;
 }
 export interface Datos {
-  meta: { version_contrato: string; generado: string; periodo: { desde: string; hasta: string };
+  meta: { version_contrato: string; generado: string; periodo: { desde: string; hasta: string }; temas?: string[];
           recuentos: { votaciones: number; promesas: number; veredictos: number } };
   partidos: Partido[]; votaciones: Votacion[]; promesas: Promesa[]; cruces: Cruce[];
   temas: Record<string, Record<string, Record<string, number>>>;
@@ -99,3 +100,21 @@ const FECHA = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', 
 export const fecha = (iso: string) => FECHA.format(new Date(iso.length === 10 ? `${iso}T12:00:00Z` : iso));
 const EUROS = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 export const euros = (n: number) => EUROS.format(n);
+
+/** Temas de las propuestas de 2026: los del contrato (1.4+) o, con un datos.json anterior, los que aparezcan. */
+export function listaTemas(): string[] {
+  return datos.meta.temas ?? [...new Set(datos.promesas.filter((p) => p.anio === 2026).map((p) => p.tema))];
+}
+
+/** Todas las propuestas de 2026 de un partido en un tema, en el orden del programa. Nadie elige. */
+export function propuestas2026(tema: string, partido: string): Promesa[] {
+  return datos.promesas.filter((p) => p.anio === 2026 && p.tema === tema && p.partido === partido)
+    .sort((a, b) => (a.pagina - b.pagina) || (a.id - b.id));
+}
+
+/** Orden alfabético por nombre (colación española): el orden de los partidos en las páginas de tema. */
+export function partidosAlfabeticos(): Partido[] {
+  return [...datos.partidos].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+}
+
+export const slugTema = slug;
