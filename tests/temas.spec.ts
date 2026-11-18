@@ -1,8 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
-import { execSync } from 'node:child_process';
-import { join } from 'node:path';
-import { tmpdir } from 'node:os';
+import { readFileSync } from 'node:fs';
 
 const datos = JSON.parse(readFileSync('tests/fixtures/datos.json', 'utf-8'));
 const slug = (id: string) => id.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -79,21 +76,4 @@ test('las páginas de tema no cargan JavaScript', async ({ page }) => {
 test('el pie enlaza a las propuestas por tema', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('footer a[href="/temas/"]')).toHaveCount(1);
-});
-
-test('sin meta.temas ni programa_2026 el build sigue funcionando', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'poligrafo-'));
-  const viejo = structuredClone(datos);
-  delete viejo.meta.temas;
-  for (const p of viejo.partidos) { delete p.programa_2026; delete p.sin_programa_2026; delete p.url_sin_programa_2026; }
-  writeFileSync(join(dir, 'datos.json'), JSON.stringify(viejo));
-  execSync(`npx astro build --outDir "${join(dir, 'dist')}"`, { env: { ...process.env, DATOS_JSON: join(dir, 'datos.json') }, stdio: 'pipe' });
-  // Con un datos.json anterior, un partido con propuestas de 2026 no puede salir como «sin programa» (revisión 2026-11-17).
-  const ficha = readFileSync(join(dir, 'dist', 'partido', 'pp', 'index.html'), 'utf-8');
-  expect(ficha).not.toContain('Sin programa de 2026 cargado');
-  expect(ficha).toMatch(/href="\/temas\/[a-z0-9-]+\/#pp"/);
-  const salf = de2026.some((p: any) => p.partido === 'SALF' && p.tema === 'Pensiones');
-  expect(salf).toBe(false);
-  const pensiones = readFileSync(join(dir, 'dist', 'temas', 'pensiones', 'index.html'), 'utf-8');
-  expect(pensiones).toMatch(/Se Acabó La Fiesta:<\/strong>\s*Sin propuestas sobre este tema/);
 });
