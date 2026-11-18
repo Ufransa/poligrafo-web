@@ -118,3 +118,8 @@ export function partidosAlfabeticos(): Partido[] {
 }
 
 export const slugTema = slug;
+
+/** Tiene programa de 2026 si el contrato lo dice o si hay propuestas suyas (un datos.json anterior no trae el campo). */
+export function tienePrograma2026(p: Partido): boolean {
+  return Boolean(p.programa_2026) || datos.promesas.some((x) => x.anio === 2026 && x.partido === p.id);
+}

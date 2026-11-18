@@ -29,12 +29,14 @@ const pct = (n: number) => `${n.toLocaleString('es-ES')} %`;
 
   <section id="temas-2026">
     <h2>A qué dedica su programa de 2026</h2>
-    {p.programa_2026 && temas2026.length > 0
+    {temas2026.length > 0
       ? <>
-          <p class="aviso">Porcentaje de sus propuestas de 2026 sobre cada tema. Cada tema lleva a sus propuestas, junto a las de los demás partidos. <a href={p.programa_2026} rel="noopener">Programa de 2026</a></p>
+          <p class="aviso">Porcentaje de sus propuestas de 2026 sobre cada tema. Cada tema lleva a sus propuestas, junto a las de los demás partidos.{p.programa_2026 && <> <a href={p.programa_2026} rel="noopener">Programa de 2026</a></>}</p>
           {temas2026.map(([t, n]) => <div class="barra"><a href={`/temas/${slugTema(t)}/#${slug(p.id)}`}>{t}</a><span>{pct(n)}</span><i style={`width:${n}%`}></i></div>)}
         </>
-      : <p class="aviso">{p.sin_programa_2026 ?? 'Sin programa de 2026 cargado.'}{p.url_sin_programa_2026 && <> <a href={p.url_sin_programa_2026} rel="noopener">Ver su web</a></>}</p>}
+      : p.programa_2026
+        ? <p class="aviso"><a href={p.programa_2026} rel="noopener">Programa de 2026</a>. Aún no hay propuestas extraídas.</p>
+        : <p class="aviso">{p.sin_programa_2026 ?? 'Sin programa de 2026 cargado.'}{p.url_sin_programa_2026 && <> <a href={p.url_sin_programa_2026} rel="noopener">Ver su web</a></>}</p>}
   </section>
 
   {firmes.length > 0 && (

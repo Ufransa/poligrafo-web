@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { listaTemas, slugTema, slug, partidosAlfabeticos, propuestas2026 } from '../../lib/datos';
+import { listaTemas, slugTema, slug, partidosAlfabeticos, propuestas2026, tienePrograma2026 } from '../../lib/datos';
 export function getStaticPaths() {
   return listaTemas().map((tema) => ({ params: { tema: slugTema(tema) }, props: { tema } }));
 }
@@ -31,7 +31,7 @@ const sin = partidos.filter((x) => x.propuestas.length === 0);
     <ul class="sin-propuestas">
       {sin.map(({ p }) => (
         <li id={slug(p.id)}><strong>{p.nombre}:</strong>{' '}
-          {p.programa_2026
+          {tienePrograma2026(p)
             ? 'Sin propuestas sobre este tema.'
             : <>{p.sin_programa_2026 ?? 'Sin programa de 2026 cargado.'}{p.url_sin_programa_2026 && <> <a href={p.url_sin_programa_2026} rel="noopener">Ver su web</a></>}</>}
         </li>
